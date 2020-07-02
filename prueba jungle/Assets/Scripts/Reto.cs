@@ -19,7 +19,7 @@ public class Reto : MonoBehaviour
         controller = new OnDrop1();
         controller2 = new OnDrop2();
 
-       drop = GameObject.Find("Drop");
+       drop = GameObject.Find("Drop1");
         drop2 = GameObject.Find("Drop2");
 
         controller = drop.GetComponent<OnDrop1>();
