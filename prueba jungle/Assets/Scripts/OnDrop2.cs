@@ -8,7 +8,7 @@ public class OnDrop2 : MonoBehaviour, IDropHandler
 {
     //public NewMangoScript draDro;
 
-    public int SendVariable1 = 0;
+    public int sendVariable2 = 0;
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -26,7 +26,11 @@ public class OnDrop2 : MonoBehaviour, IDropHandler
         if (controller != null)
         {
             controller.MostrarValor2();
-            SendVariable1 = controller.getValor();
+            sendVariable2 = controller.getValor();
         }
+    }
+    public int getVariable2()
+    {
+        return sendVariable2;
     }
 }
