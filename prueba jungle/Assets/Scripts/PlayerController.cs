@@ -9,9 +9,12 @@ public class PlayerController : MonoBehaviour
 
     float horizontal;
     float vertical;
+
     GameObject box;
     public LayerMask boxMask;
     public float distance = 1f;
+    bool transportGarbage = false;
+
     Animator animator;
     Vector2 lookDirection = new Vector2(1, 0);
 
@@ -48,16 +51,21 @@ public class PlayerController : MonoBehaviour
         {
             RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.right * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
             if (hit.collider != null)
+            { 
                 box = hit.collider.gameObject;
-            box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
-            box.GetComponent<FixedJoint2D>().enabled = true;
-            box.GetComponent<GarbagePull>().beingPushed = true;
+                box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
+                box.GetComponent<FixedJoint2D>().enabled = true;
+                box.GetComponent<GarbagePull>().beingPushed = true;
+                transportGarbage = true;
+            }
         }
-        else if (Input.GetKeyUp(KeyCode.X))
+        else if (Input.GetKeyUp(KeyCode.X) && (transportGarbage))
         {
+            
             box.GetComponent<FixedJoint2D>().enabled = false;
             box.GetComponent<GarbagePull>().beingPushed = false;
             box = null;
+            transportGarbage = false;
         }
         else {
             Physics2D.queriesStartInColliders = false;
@@ -67,7 +75,6 @@ public class PlayerController : MonoBehaviour
     void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-
         Gizmos.DrawLine(transform.position, (Vector2)transform.position + Vector2.right * transform.localScale.x * distance);
 
     }
