@@ -12,19 +12,10 @@ public class Item2 : MonoBehaviour
         print(valor2);
     }
 
-    public int getValor()
+    public int GetValor()
     {
        return valor2;
     }
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

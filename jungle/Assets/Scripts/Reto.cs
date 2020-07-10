@@ -16,10 +16,10 @@ public class Reto : MonoBehaviour
 
     public void Start()
     {
-        controller = new OnDrop1();
-        controller2 = new OnDrop2();
+        controller = gameObject.AddComponent<OnDrop1>();
+        controller2 = gameObject.AddComponent<OnDrop2>();
 
-       drop = GameObject.Find("Drop1");
+        drop = GameObject.Find("Drop1");
         drop2 = GameObject.Find("Drop2");
 
         controller = drop.GetComponent<OnDrop1>();
@@ -27,12 +27,6 @@ public class Reto : MonoBehaviour
 
 
     }
-
-    //void ButtonClicked(int buttonNo)
-    //{
-    //    //Output this to console when the Button3 is clicked
-    //    Debug.Log("Button clicked = " + buttonNo);
-    //}
 
     public void Validacion()
     {
