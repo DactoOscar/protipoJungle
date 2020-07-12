@@ -12,10 +12,27 @@ public class Item2 : MonoBehaviour
         print(valor2);
     }
 
-    public int GetValor()
+    public int getValor()
     {
        return valor2;
     }
 
-   
+    void Start()
+    {
+<<<<<<< Updated upstream:prueba jungle/Assets/Scripts/Item2.cs
+        
+=======
+
+>>>>>>> Stashed changes:jungle/Assets/Scripts/Item2.cs
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+<<<<<<< Updated upstream:prueba jungle/Assets/Scripts/Item2.cs
+        
+=======
+
+>>>>>>> Stashed changes:jungle/Assets/Scripts/Item2.cs
+    }
 }
