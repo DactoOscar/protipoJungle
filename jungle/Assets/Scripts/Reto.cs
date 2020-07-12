@@ -33,7 +33,7 @@ public class Reto : MonoBehaviour
         variable = controller.getVariable1();
         variable2 = controller2.getVariable2();
         int oper = variable * variable2;
-        // Debug.Log(oper);
+       // Debug.Log(oper);
 
         Debug.Log("Valor final: " + (oper) + " Resultado Correcto!!");
 
