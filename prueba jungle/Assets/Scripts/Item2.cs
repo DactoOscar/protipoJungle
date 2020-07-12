@@ -19,12 +19,20 @@ public class Item2 : MonoBehaviour
 
     void Start()
     {
+<<<<<<< Updated upstream:prueba jungle/Assets/Scripts/Item2.cs
         
+=======
+
+>>>>>>> Stashed changes:jungle/Assets/Scripts/Item2.cs
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< Updated upstream:prueba jungle/Assets/Scripts/Item2.cs
         
+=======
+
+>>>>>>> Stashed changes:jungle/Assets/Scripts/Item2.cs
     }
 }
