@@ -7,16 +7,7 @@ public class GarbagePull : MonoBehaviour
 	public float defaultMass;
 	public float imovableMass;
 	public bool beingPushed;
-<<<<<<< Updated upstream:prueba jungle/Assets/Scripts/GarbagePull.cs
-	float xPos;
-
-=======
 	float xPos = 0;
-	float yPos = 0;
-
-	internal bool grabX = false;
-	internal bool grabY = false;
->>>>>>> Stashed changes:jungle/Assets/Scripts/GarbagePull.cs
 	public Vector3 lastPos;
 
 	public int mode;
@@ -25,51 +16,36 @@ public class GarbagePull : MonoBehaviour
 	void Start()
 	{
 		xPos = transform.position.x;
-		yPos = transform.position.y;
 		lastPos = transform.position;
 	}
 
 	// Update is called once per frame
 	void FixedUpdate()
 	{
-		// if (mode == 0)
-		//	{
-		if (beingPushed == false)
+		if (mode == 0)
 		{
-			transform.position = new Vector3(xPos, transform.position.y);
-			if (grabY)
+			if (beingPushed == false)
 			{
-				Debug.Log("Arrastrando en Y");
 				transform.position = new Vector3(xPos, transform.position.y);
 			}
+			else
+				xPos = transform.position.x;
+		}
+		else if (mode == 1)
+		{
 
-			if (grabX)
+			if (beingPushed == false)
 			{
-				Debug.Log("Arrastrando en X");
-				transform.position = new Vector3(transform.position.x, yPos);
+
+
+				GetComponent<Rigidbody2D>().mass = imovableMass;
+
 			}
-		}
-		else
-		{
-			Debug.Log("Bolsa soltada");
-			xPos = transform.position.x;
-			yPos = transform.position.y;
-		}
-		//else if (mode == 1)
-		//{
-
-		if (beingPushed == false)
-		{
-
-
-			GetComponent<Rigidbody2D>().mass = imovableMass;
-
-		}
-		else
-		{
-			GetComponent<Rigidbody2D>().mass = defaultMass;
-			//	GetComponent<Rigidbody2D> ().isKinematic = false;
-			//}
+			else
+			{
+				GetComponent<Rigidbody2D>().mass = defaultMass;
+				//	GetComponent<Rigidbody2D> ().isKinematic = false;
+			}
 
 		}
 	}

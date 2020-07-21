@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1479859677191968836}
   - component: {fileID: 1479859677191968835}
   m_Layer: 9
-  m_Name: Garbagebag
+  m_Name: bag-clipart-garbage-10-transparent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,7 +147,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 311.20056, y: 45.833786}
+  m_ConnectedAnchor: {x: 303.1, y: 46.3}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!114 &1479859677191968835
@@ -163,8 +163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultMass: 0
-  imovableMass: 10000
+  imovableMass: 0
   beingPushed: 0
   lastPos: {x: 0, y: 0, z: 0}
-  mode: 1
+  mode: 0
   colliding: 0
