@@ -62,26 +62,46 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.C))
         {
-          RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.right * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
-         if (hit.collider != null)
-        {
-          box = hit.collider.gameObject;
-         box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
-         box.GetComponent<FixedJoint2D>().enabled = true;
-         box.GetComponent<GarbagePull>().beingPushed = true;
-         transportGarbage = true;
-          }
+            RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position /* + Vector2.right * 0.2f */, lookDirection, 3.0f, LayerMask.GetMask("NPC"));
+            Debug.Log(lookDirection.x + "," + lookDirection.y);
+
+            if (hit.collider != null)
+            {
+                box = hit.collider.gameObject;
+                box = hit.collider.gameObject;
+                box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
+                box.GetComponent<FixedJoint2D>().enabled = true;
+                box.GetComponent<GarbagePull>().beingPushed = true;
+                transportGarbage = true;
+            }
+
+            if (lookDirection.x == 1 || lookDirection.x == -1)
+            {
+                Debug.Log("Mirando de lado");
+                box.GetComponent<GarbagePull>().grabX = true;
+
+            }
+            else if (lookDirection.y == 1 || lookDirection.y == -1)
+            {
+                Debug.Log("Arrastrando arriba/abajo");
+                box.GetComponent<GarbagePull>().grabY = true;
+            }
         }
         else if (Input.GetKeyUp(KeyCode.X) && (transportGarbage))
         {
 
-          box.GetComponent<FixedJoint2D>().enabled = false;
-         box.GetComponent<GarbagePull>().beingPushed = false;
-         box = null;
-         transportGarbage = false;
+            box.GetComponent<FixedJoint2D>().enabled = false;
+            box.GetComponent<GarbagePull>().beingPushed = false;
+            box = null;
+            box.GetComponent<GarbagePull>().beingPushed = false;
+            box.GetComponent<GarbagePull>().grabX = false;
+            box.GetComponent<GarbagePull>().grabY = false;
+            box = null;
+            transportGarbage = false;
         }
-        else { 
-        }
+        else
+        {
+        }  
     }
 
     void OnDrawGizmos()
@@ -100,5 +120,4 @@ public class PlayerController : MonoBehaviour
         rigidbody2d.MovePosition(position);
 
     }
-
 }
