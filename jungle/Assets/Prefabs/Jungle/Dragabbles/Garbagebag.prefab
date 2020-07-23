@@ -166,5 +166,5 @@ MonoBehaviour:
   imovableMass: 10000
   beingPushed: 0
   lastPos: {x: 0, y: 0, z: 0}
-  mode: 1
+  mode: 0
   colliding: 0

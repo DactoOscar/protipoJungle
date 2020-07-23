@@ -69,5 +69,14 @@ public class GarbagePull : MonoBehaviour
 		}
 	}
 
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		Container controller = other.GetComponent<Container>();
+
+		if (controller != null)
+		{
+			Destroy(gameObject);
+		}
+	}
 }
 
