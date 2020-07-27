@@ -13,27 +13,24 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     private CanvasGroup canvasGroup;
     public bool isDrag;
     //private string nameItem;
-    SpriteMovement itemController;
+    Item itemController;
 
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>() ;
     }
-    void Update()
-    {
-
-    }
+ 
 
     public void OnDrag(PointerEventData eventData)
     {
         Debug.Log("OnDrag");
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
         isDrag = true;
-        
-        itemController = GameObject.Find(name).GetComponent<SpriteMovement>();
+        //Debug.Log(name);
 
-        itemController.enabled = false;
+        itemController = GameObject.Find(name).GetComponent<Item>();
+        itemController.speed = 0f;
 
     }
 
@@ -49,7 +46,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
         isDrag = false;
-        itemController.enabled = true;
+        itemController.speed = 85f;
 
 
     }

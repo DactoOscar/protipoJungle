@@ -24,14 +24,14 @@ public class OnDropp : MonoBehaviour, IDropHandler
     void OnTriggerEnter2D(Collider2D other)
     {
         nameObject = other.name;
-        Debug.Log("Nombre: "+nameObject);
+        Debug.Log("Nombre: " + nameObject);
 
         Item controller = other.GetComponent<Item>();
-        SpriteMovement controllerMove = other.GetComponent<SpriteMovement>();
-        controllerMove.enabled = false;
+        //SpriteMovement controllerMove = other.GetComponent<SpriteMovement>();
+        controller.speed = 0.0f;
 
 
-        if (nameObject.Equals("Item1") || nameObject.Equals("Item3"))
+        if (nameObject.Equals("Item5") || nameObject.Equals("Item7"))
         {
             if (controller != null)
             {

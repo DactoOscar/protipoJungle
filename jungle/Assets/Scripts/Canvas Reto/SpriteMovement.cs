@@ -9,10 +9,10 @@ public class SpriteMovement : MonoBehaviour
     public float startWaitTime;
     public Transform moveSpot;
 
-    public float minX = -50f;
-    public float minY = -50f;
-    public float maxX = 230f;
-    public float maxY = 300f;
+    public float minX ;
+    public float minY ;
+    public float maxX ;
+    public float maxY ;
 
 
     void Start()
@@ -22,7 +22,6 @@ public class SpriteMovement : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, moveSpot.position, speed * Time.deltaTime);
@@ -34,7 +33,7 @@ public class SpriteMovement : MonoBehaviour
                 waitTime = startWaitTime;
             }else
             {
-                waitTime -= Time.time;
+                waitTime -= Time.deltaTime;
             }
         }
 
