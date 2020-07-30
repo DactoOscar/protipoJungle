@@ -75,7 +75,11 @@ public class GarbagePull : MonoBehaviour
 
 		if (controller != null)
 		{
-			Destroy(gameObject);
+			if (controller.health < controller.maxCounter)
+			{
+				controller.ChangeHealth(1);
+				Destroy(gameObject);
+			}
 		}
 	}
 }
