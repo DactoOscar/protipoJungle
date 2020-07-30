@@ -5,11 +5,10 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public int valor ;
-
     public float speed;
-    //public float waitTime;
-    //public float startWaitTime;
+    public bool inBasket;
     public Transform moveSpot;
+    public string nameBasket;
 
     
 
