@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    public GameObject reto1;
+    public GameObject canvasReto;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         //GameObject.Find("Canvas_Reto1").GetComponent<Canvas>().enabled = true;
-       reto1.SetActive(true);
+        canvasReto.SetActive(true);
         
     }
 

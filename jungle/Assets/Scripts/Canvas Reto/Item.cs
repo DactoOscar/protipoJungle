@@ -12,11 +12,6 @@ public class Item : MonoBehaviour
 
     
 
-    public void MostrarValor()
-    {
-        print(valor);
-    }
-
     public int GetValor()
     {
         return valor;

@@ -14,6 +14,10 @@ public class OnDropp : MonoBehaviour, IDropHandler
     public string nameObject;
     private Vector3 posDrop;
     public string name;
+    //[SerializeField]    string[] arrayItems = new string[10] { "Item1", "Item2", "Item3", "Item4", "Item5", "Item6", "Item7", "Item8", "Item9", "Item10" };
+
+
+    //public Items items2;
 
 
     void Start()
@@ -36,8 +40,7 @@ public class OnDropp : MonoBehaviour, IDropHandler
     void OnTriggerEnter2D(Collider2D other)
     {
         nameObject = other.name;
-        Debug.Log("Nombre: " + nameObject);
-
+        //Debug.Log("Nombre: " + nameObject);
         Item controller = other.GetComponent<Item>();
 
         if (!isFull)
@@ -46,15 +49,12 @@ public class OnDropp : MonoBehaviour, IDropHandler
             controller.nameBasket = name;
             isFull = true;
         }
-        
-        if (nameObject.Equals("Item5") || nameObject.Equals("Item7"))
+
+        if (controller != null)
         {
-            if (controller != null)
-            {
-                controller.MostrarValor();
-                sendVariable = controller.GetValor();
-            }
+            sendVariable = controller.GetValor();
         }
+
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -62,7 +62,6 @@ public class OnDropp : MonoBehaviour, IDropHandler
         Item controller = other.GetComponent<Item>();
         controller.inBasket = false;
         isFull = false;
-
     }
 
     public int GetVariable()
