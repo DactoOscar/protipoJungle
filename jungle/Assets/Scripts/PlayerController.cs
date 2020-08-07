@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5.0f;
     Rigidbody2D rigidbody2d;
-
+    public GameObject optionsScreen;
     float horizontal;
     float vertical;
 
@@ -56,6 +56,11 @@ public class PlayerController : MonoBehaviour
                     character.DisplayDialog();
                 }
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            optionsScreen.SetActive(true);
         }
 
         Physics2D.queriesStartInColliders = false;
