@@ -20,6 +20,10 @@ public class Container : MonoBehaviour
     {
         garbageCounter = Mathf.Clamp(garbageCounter + amount, 0, maxCounter);
         //Debug.Log("Basura: " + garbageCounter + "/" + maxCounter);
+        if(garbageCounter == maxCounter)
+        {
+            isFull = true;
+        }
     }
    
 }
