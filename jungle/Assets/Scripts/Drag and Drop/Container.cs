@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.UI;
+=======
+>>>>>>> master
 
 public class Container : MonoBehaviour
 {
     public int maxCounter;
     public int counter { get { return garbageCounter; } }
     private int garbageCounter;
+<<<<<<< HEAD
     public bool isFull;
     public bool isFullPoints;
 
@@ -17,23 +21,36 @@ public class Container : MonoBehaviour
     public int maxCounterPoints = 300;
     public Text texto;
     public int xp;
+=======
+
+    public bool isFull;
+>>>>>>> master
 
     // Start is called before the first frame update
     void Start()
     {
         isFull = false;
+<<<<<<< HEAD
         isFullPoints = false;
+=======
+>>>>>>> master
     }
 
     public void ChangeCounter(int amount)
     {
         garbageCounter = Mathf.Clamp(garbageCounter + amount, 0, maxCounter);
+<<<<<<< HEAD
         Debug.Log(garbageCounter + "/" + maxCounter);
         if (garbageCounter == maxCounter)
+=======
+        //Debug.Log("Basura: " + garbageCounter + "/" + maxCounter);
+        if(garbageCounter == maxCounter)
+>>>>>>> master
         {
             isFull = true;
         }
     }
+<<<<<<< HEAD
 
     public void Points(int experience)
     {
@@ -51,4 +68,7 @@ public class Container : MonoBehaviour
     {
         return pointCounter;
     }
+=======
+   
+>>>>>>> master
 }
