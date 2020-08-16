@@ -147,7 +147,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 294.37, y: 44.7}
+  m_ConnectedAnchor: {x: 310.87054, y: 46.243786}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!114 &1479859677191968835
@@ -162,6 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da7192fce78eb54694e111196be7ead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GarbagePoint: {fileID: 0}
   defaultMass: 0
   imovableMass: 10000
   beingPushed: 0

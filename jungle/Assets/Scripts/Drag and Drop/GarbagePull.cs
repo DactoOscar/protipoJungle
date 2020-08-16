@@ -1,15 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class GarbagePull : MonoBehaviour
 {
+	public GameObject GarbagePoint;
 	public float defaultMass;
 	public float imovableMass;
 	public bool beingPushed;
 	float xPos = 0;
 	public Vector3 lastPos;
 	float yPos = 0;
+
+	// contador de puntos
+	
 
 	internal bool grabX = false;
 	internal bool grabY = false;
@@ -70,15 +76,22 @@ public class GarbagePull : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		Container controller = other.GetComponent<Container>();
+		Container controller = other.gameObject.GetComponent<Container>();
 
 		if (controller != null)
 		{
+
 			if (controller.counter < controller.maxCounter)
 			{
 				controller.ChangeCounter(1);
+				GarbagePoint.SetActive(true);
+				Instantiate(GarbagePoint);
 				Destroy(gameObject);
 			}
+			else {
+				GarbagePoint.SetActive(false);
+			}
+			controller.Points(1);
 		}
 	}
 }
