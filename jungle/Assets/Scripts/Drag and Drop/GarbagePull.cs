@@ -14,15 +14,13 @@ public class GarbagePull : MonoBehaviour
 	public Vector3 lastPos;
 	float yPos = 0;
 
-	// contador de puntos
-	
-
 	internal bool grabX = false;
 	internal bool grabY = false;
 
 	public int mode;
 	public int colliding;
-	// Use this for initialization
+	
+
 	void Start()
 	{
 		xPos = transform.position.x;
@@ -30,11 +28,9 @@ public class GarbagePull : MonoBehaviour
 		lastPos = transform.position;
 	}
 
-	// Update is called once per frame
 	void FixedUpdate()
 	{
-		// if (mode == 0)
-		//	{
+		
 		if (beingPushed == false)
 		{
 			transform.position = new Vector3(xPos, transform.position.y);
@@ -56,9 +52,7 @@ public class GarbagePull : MonoBehaviour
 			xPos = transform.position.x;
 			yPos = transform.position.y;
 		}
-		//else if (mode == 1)
-		//{
-
+	
 		if (beingPushed == false)
 		{
 
@@ -69,8 +63,6 @@ public class GarbagePull : MonoBehaviour
 		else
 		{
 			GetComponent<Rigidbody2D>().mass = defaultMass;
-			//	GetComponent<Rigidbody2D> ().isKinematic = false;
-			//}
 		}
 	}
 
@@ -91,7 +83,7 @@ public class GarbagePull : MonoBehaviour
 			else {
 				GarbagePoint.SetActive(false);
 			}
-			controller.Points(1);
+			 controller.Points(1);
 		}
 	}
 }

@@ -9,10 +9,8 @@ public class Collectable : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        //GameObject.Find("Canvas_Reto1").GetComponent<Canvas>().enabled = true;
         canvasReto.SetActive(true);
         ChallengeMusic.SetActive(false);
-        
     }
 
     

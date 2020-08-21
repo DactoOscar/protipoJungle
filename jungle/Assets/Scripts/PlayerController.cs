@@ -17,26 +17,6 @@ public class PlayerController : MonoBehaviour
     public GameObject bolsa;
     public GameObject dialog;
 
-    //Enlaces a los contenedores de basura y retos
-    public int maxCounterPoints = 300;
-    public Text texto;
-
-    public GameObject cont1;
-    public GameObject cont2;
-    public GameObject cont3;
-    public GameObject cont4;
-    public GameObject contReto1;
-    public GameObject contReto2;
-    public GameObject contReto3;
-
-    Container container1;
-    Container container2;
-    Container container3;
-    Container container4;
-    ValidateReto val1;
-    ValidateReto val2;
-    ValidateReto val3;
-
     GameObject box;
     public LayerMask boxMask;
     public float distance = 1f;
@@ -49,16 +29,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-
         rigidbody2d = GetComponent<Rigidbody2D>();
-
-        container1 = cont1.GetComponent<Container>();
-        container2 = cont2.GetComponent<Container>();
-        container3 = cont3.GetComponent<Container>();
-        container4 = cont4.GetComponent<Container>();
-        val1 = contReto1.GetComponent<ValidateReto>();
-        val2 = contReto2.GetComponent<ValidateReto>();
-        val3 = contReto3.GetComponent<ValidateReto>();
     }
 
     // Update is called once per frame
@@ -152,22 +123,6 @@ public class PlayerController : MonoBehaviour
         else
         {
         }
-       PointsPrint();
-    }
-
-    public void PointsPrint(){
-        
-        int var1 = container1.GetVariable();
-        int var2 = container2.GetVariable();
-        int var3 = container3.GetVariable();
-        int var4 = container4.GetVariable();
-        int var5 = val1.GetVariable();
-        int var6 = val2.GetVariable();
-        int var7 = val3.GetVariable();
-        int calculo = var1 + var2 + var3 + var4 + var5 + var6 + var7;
-
-        texto.text = calculo + " Puntos";
-        Debug.Log(calculo + "/" + maxCounterPoints);
     }
 
     void OnDrawGizmos()

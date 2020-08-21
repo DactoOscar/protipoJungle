@@ -58,7 +58,6 @@ public class ValidateReto : MonoBehaviour
                 canvasReto.SetActive(false);
                 item.SetActive(false);
                 musicMain.SetActive(true);
-                GetVariable();
             }
         }
     }
@@ -90,16 +89,13 @@ public class ValidateReto : MonoBehaviour
 
             if (notificationPush == true) {
                 DisplayDialog();
-                experience = 30;
-                Debug.Log("Obtuviste " + experience + " de experiencia");
+                //Debug.Log("Obtuviste " + experience + " de experiencia");
             }
         }
     }
 
-
     public static int Calculate(Operacion operacion, int variable1, int variable12)
     {
-        //Debug.Log("Funcion Calculate ");
         switch (operacion.ToString())
         {
             case "suma" : return variable1 + variable12;
