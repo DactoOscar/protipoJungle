@@ -17,14 +17,11 @@ public class Container : MonoBehaviour
     public int maxCounterPoints = 300;
     public Text texto;
     public int xp;
-
-    // Start is called before the first frame update
     void Start()
     {
         isFull = false;
         isFullPoints = false;
     }
-
     public void ChangeCounter(int amount)
     {
         garbageCounter = Mathf.Clamp(garbageCounter + amount, 0, maxCounter);
@@ -34,19 +31,16 @@ public class Container : MonoBehaviour
             isFull = true;
         }
     }
-
     public void Points(int experience)
     {
         pointCounter = Mathf.Clamp(pointCounter + experience, 0, maxCounter);
         texto.text = pointCounter + " Puntos";
         if (pointCounter == maxCounter)
         {
-            pointCounter = pointCounter;
+            // pointCounter = pointCounter;
             isFullPoints = true;
         }
-
     }
-
     public int GetVariable()
     {
         return pointCounter;

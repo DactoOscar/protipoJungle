@@ -25,14 +25,7 @@ public class CollectorManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //RETO1 DRAG N DROP 
-        //if ((listContenedores[0].GetComponent<Container>().counter == listContenedores[0].GetComponent<Container>().maxCounter)
-        //    && (listContenedores[1].GetComponent<Container>().counter == listContenedores[1].GetComponent<Container>().maxCounter) )
-        //{
-        //    listCollectables[0].gameObject.SetActive(true);
-        //}
-
-        //RETO2 DRAG N DROP 
+        
 
         if ( contenedores[0].contenedor.isFull && contenedores[1].contenedor.isFull)
         {
