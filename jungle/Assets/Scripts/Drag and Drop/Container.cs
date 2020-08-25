@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Container : MonoBehaviour
 {
     public int maxCounter;
+
     public int counter { get { return garbageCounter; } }
     private int garbageCounter;
     public bool isFull;

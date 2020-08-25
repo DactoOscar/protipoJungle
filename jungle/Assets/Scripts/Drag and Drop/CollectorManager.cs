@@ -5,29 +5,41 @@ using UnityEngine;
 
 public class CollectorManager : MonoBehaviour
 {
-    public List<GameObject> listCollectables;
+    internal int xp;
+   // public List<GameObject> listCollectables;
     [Serializable]
     public struct ListContainer
     {
         public string name;
         public Container contenedor;
+
     }
     public ListContainer[] contenedores;
 
-
-
-    void Start()
+    [Serializable]
+    public struct listCollectable
     {
+        public string name;
+        public GameObject collectable;
+        public int experience;
     }
-
+    public listCollectable[] listCollectables;
     void Update()
     {
+        GetExperience();
 
-        if ( contenedores[0].contenedor.isFull && contenedores[1].contenedor.isFull)
+    }
+
+    public void GetExperience()
+    {
+        if (contenedores[0].contenedor.isFull && contenedores[1].contenedor.isFull)
         {
-            listCollectables[0].gameObject.SetActive(true);
-        }
+            Debug.Log("Get XP");
+            xp = listCollectables[0].experience + listCollectables[1].experience;
+            listCollectables[0].collectable.SetActive(true);
+            return;
 
+        }
     }
 
 

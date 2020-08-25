@@ -3,13 +3,22 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class DialogueManager : MonoBehaviour
 {
     //public Text nameText;
-    public Text[] dialogueText;
+    [Serializable]
+    public struct ListTextDialogueManager
+    {
+        public string name;
+        public Text dialogueText;
+    }
+    public ListTextDialogueManager[] listText;
+
+    //public Text[] dialogueText;
     private Queue<string> sentences;
-    DialogueTrigger canvasActive;
+    //DialogueTrigger canvasActive;
 
 
     void Start()
@@ -41,7 +50,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        dialogueText[0].text = sentence;
+       listText[0].dialogueText.text = sentence;
     }
 
     void EndDialogue()
