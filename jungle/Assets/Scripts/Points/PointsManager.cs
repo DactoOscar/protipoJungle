@@ -48,6 +48,8 @@ public class PointsManager : MonoBehaviour
         int var6 = puntosChallenge[1].reto.GetExperience();
         //int var7 = puntosChallenge[2].reto.GetVariable();
         calculo = var1 + var2 + var3 + var4 + var5 + var6 ;
+
+        UIexperienceBar.instance.SetValue(calculo / (float)maxCounterPoints);
     }
 
 }
