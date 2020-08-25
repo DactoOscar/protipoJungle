@@ -28,9 +28,7 @@ public class PointsManager : MonoBehaviour
     public ListContainer2[] puntosChallenge;
 
 
-    void Start()
-    {
-    }
+  
 
     void Update()
     {
@@ -42,14 +40,14 @@ public class PointsManager : MonoBehaviour
 
     public void PointsPrint()
     {
-        int var1 = puntosBasuras[0].contenedor.GetVariable();
-        int var2 = puntosBasuras[1].contenedor.GetVariable();
-        int var3 = puntosBasuras[2].contenedor.GetVariable();
-        int var4 = puntosBasuras[3].contenedor.GetVariable();
-        int var5 = puntosChallenge[0].reto.GetVariable();
-        int var6 = puntosChallenge[1].reto.GetVariable();
-        int var7 = puntosChallenge[2].reto.GetVariable();
-        calculo = var1 + var2 + var3 + var4 + var5 + var6 + var7;
+        int var1 = puntosBasuras[0].contenedor.GetPointsCounter();
+        int var2 = puntosBasuras[1].contenedor.GetPointsCounter();
+        int var3 = puntosBasuras[2].contenedor.GetPointsCounter();
+        int var4 = puntosBasuras[3].contenedor.GetPointsCounter();
+        int var5 = puntosChallenge[0].reto.GetExperience();
+        int var6 = puntosChallenge[1].reto.GetExperience();
+        //int var7 = puntosChallenge[2].reto.GetVariable();
+        calculo = var1 + var2 + var3 + var4 + var5 + var6 ;
     }
 
 }

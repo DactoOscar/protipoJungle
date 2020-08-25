@@ -62,7 +62,7 @@ public class ValidateReto : MonoBehaviour
         }
     }
 
-    public int GetVariable()
+    public int GetExperience()
     {
         if (activate == true) {
             return experience;

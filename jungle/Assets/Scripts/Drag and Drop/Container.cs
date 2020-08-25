@@ -14,7 +14,7 @@ public class Container : MonoBehaviour
 
     public int counterPoints { get { return pointCounter; } }
     private int pointCounter;
-    public int maxCounterPoints = 300;
+    public int maxCounterPoints ;
 
 
     void Start()
@@ -45,7 +45,7 @@ public class Container : MonoBehaviour
 
     }
 
-    public int GetVariable()
+    public int GetPointsCounter()
     {
         return pointCounter;
     }

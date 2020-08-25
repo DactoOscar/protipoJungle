@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public GameObject bolsa;
     public GameObject dialog;
 
+    
     GameObject box;
     public LayerMask boxMask;
     public float distance = 1f;
@@ -32,8 +33,31 @@ public class PlayerController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    
     void Update()
+    {
+        MovementPlayer();
+        NonPlayerCharacter();
+        DragAndDrop();
+        Menu();
+       
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawLine(transform.position, (Vector2)transform.position + lookDirection /* Vector2.right * transform.localScale.x */ * distance);
+    }
+
+    void FixedUpdate()
+    {
+        Vector2 position = rigidbody2d.position;
+        position.x = position.x + speed * horizontal * Time.deltaTime;
+        position.y = position.y + speed * vertical * Time.deltaTime;
+        rigidbody2d.MovePosition(position);
+
+    }
+    void MovementPlayer()
     {
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
@@ -49,12 +73,16 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Look X", lookDirection.x);
         animator.SetFloat("Look Y", lookDirection.y);
         animator.SetFloat("Speed", move.magnitude);
+    }
 
+    void NonPlayerCharacter()
+    {
         if (Input.GetKeyDown(KeyCode.E))
         {
             RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 0.5f, LayerMask.GetMask("Kids"));
             if (hit.collider != null)
             {
+
                 NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
                 if (character != null)
                 {
@@ -68,17 +96,10 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+    }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            optionsScreen.SetActive(true);
-            pausa.SetActive(true);
-            Instantiate(pausa);
-        }
-        else {
-            pausa.SetActive(false);
-        }
-
+    void DragAndDrop()
+    {
         Physics2D.queriesStartInColliders = false;
 
         if (Input.GetKeyDown(KeyCode.C))
@@ -125,21 +146,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void OnDrawGizmos()
+    void Menu()
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawLine(transform.position, (Vector2)transform.position + lookDirection /* Vector2.right * transform.localScale.x */ * distance);
-
-    }
-
-    void FixedUpdate()
-    {
-        Vector2 position = rigidbody2d.position;
-        position.x = position.x + speed * horizontal * Time.deltaTime;
-        position.y = position.y + speed * vertical * Time.deltaTime;
-
-        rigidbody2d.MovePosition(position);
-
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            optionsScreen.SetActive(true);
+            pausa.SetActive(true);
+            Instantiate(pausa);
+        }
+        else
+        {
+            pausa.SetActive(false);
+        }
     }
 }
 
