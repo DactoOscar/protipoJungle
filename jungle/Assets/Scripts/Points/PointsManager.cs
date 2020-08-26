@@ -36,14 +36,11 @@ public class PointsManager : MonoBehaviour
 
     public void PointsPrint()
     {
-        //int var1 = puntosBasuras[0].collectorManager.GetPointsCounter();
-        //int var2 = puntosBasuras[1].collectorManager.GetPointsCounter();
-        //int var3 = puntosBasuras[2].collectorManager.GetPointsCounter();
-        //int var4 = puntosBasuras[3].collectorManager.GetPointsCounter();
-        //int var5 = puntosRetosCanvas[0].reto.GetExperience();
-        //int var6 = puntosRetosCanvas[1].reto.GetExperience();
-        //int var7 = puntosChallenge[2].reto.GetVariable();
-       // calculo = var1 + var2 +  var5 + var6 ;
+        int var1 = puntosBasuras[0].collectorManager.points();
+        int var2 = puntosBasuras[1].collectorManager.points();
+        int var5 = puntosRetosCanvas[0].reto.GetExperience();
+        int var6 = puntosRetosCanvas[1].reto.GetExperience();
+        calculo = var1 + var2 + var5 + var6;
 
         UIexperienceBar.instance.SetValue(calculo / (float) maxCounterPoints);
     }

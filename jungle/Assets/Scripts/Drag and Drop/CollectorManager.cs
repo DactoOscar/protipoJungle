@@ -6,13 +6,13 @@ using UnityEngine;
 public class CollectorManager : MonoBehaviour
 {
     internal int xp;
-   // public List<GameObject> listCollectables;
+    internal Boolean activate, activate2;
+  
     [Serializable]
     public struct ListContainer
     {
         public string name;
         public Container contenedor;
-
     }
     public ListContainer[] contenedores;
 
@@ -24,25 +24,34 @@ public class CollectorManager : MonoBehaviour
         public int experience;
     }
     public listCollectable[] listCollectables;
+
+
     void Update()
-    {
-        GetExperience();
-
-    }
-
-    public void GetExperience()
     {
         if (contenedores[0].contenedor.isFull && contenedores[1].contenedor.isFull)
         {
-            Debug.Log("Get XP");
-            xp = listCollectables[0].experience + listCollectables[1].experience;
             listCollectables[0].collectable.SetActive(true);
-            return;
-
+            xp = listCollectables[0].experience;
+            Debug.Log("Get XP: " + xp);
+            activate = true;
         }
     }
 
+    //public void GetExperience()
+    //{
+    //        if (contenedores[0].contenedor.isFull && contenedores[1].contenedor.isFull)
+    //        {
+    //            listCollectables[0].collectable.SetActive(true);
+    //            xp = listCollectables[0].experience;
+    //            Debug.Log("Get XP: " + xp);
+    //            activate = true;
+    //        }
+    //}
 
+    public int points()
+    {
+        return xp;
+    }
 
 
 }
