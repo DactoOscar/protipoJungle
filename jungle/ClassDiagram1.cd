@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Collectable">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Canvas Reto\Collectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DragDrop" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAAIAAAAAABAMAACAAAAACIAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Canvas Reto\DragDrop.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="22.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAABQAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Canvas Reto\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemsMove" Collapsed="true">
+    <Position X="13" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADQAAAAAECAAAAAAAIAQAAAgAAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Canvas Reto\ItemsMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnDropp" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAIAAAAAAAAAKIAAEAEAAAAAAAQCAAEQAA=</HashCode>
+      <FileName>Assets\Scripts\Canvas Reto\OnDropp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SpriteMovement" Collapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADQAAAAAACAAAAAAAAAQAAAgAAAAAQAgAAAAADAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Canvas Reto\SpriteMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidateReto" Collapsed="true">
+    <Position X="17" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAFAgAGAgAAkQECxAQAAAACAAAAAAAABAAAAFQAA=</HashCode>
+      <FileName>Assets\Scripts\Canvas Reto\ValidateReto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dialogue" Collapsed="true">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialogues\Dialogue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueManager" Collapsed="true">
+    <Position X="22.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACACAAAAAAAAAAAAAAAAAAAAAAIABAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialogues\DialogueManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueTrigger" Collapsed="true">
+    <Position X="14.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialogues\DialogueTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollectorManager" Collapsed="true">
+    <Position X="17.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAgAEAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Drag and Drop\CollectorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Container" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAQACAAgAAAAQAAAAgAAAAAAAEAAAIUCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Drag and Drop\Container.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GarbagePull" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABmAAAACAACAAABAAAEAACIAEAEIAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Drag and Drop\GarbagePull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayScene" Collapsed="true">
+    <Position X="10.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\Play Scene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scr" Collapsed="true">
+    <Position X="18.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\scr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotificationsScript" Collapsed="true">
+    <Position X="18.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Notifications\NotificationsScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextScript" Collapsed="true">
+    <Position X="22.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAgQAAAAIAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Notifications\TextScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointsManager" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAIAAAAAAAAABAAIAACAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Points\PointsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIexperienceBar" Collapsed="true">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAAAAAAAAAABAAAAAAAAAAAAggEA=</HashCode>
+      <FileName>Assets\Scripts\Points\UIexperienceBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyController" Collapsed="true">
+    <Position X="18.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIiAAIAAAAAAAAAAAAAACAQAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EnemyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NonPlayerCharacter" Collapsed="true">
+    <Position X="17" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAACBgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\NonPlayerCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController" Collapsed="true">
+    <Position X="22.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQUAEAAAmAAAAAAAAAAAgABIMEaAQAAAAAAAABA4AA=</HashCode>
+      <FileName>Assets\Scripts\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="15.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
