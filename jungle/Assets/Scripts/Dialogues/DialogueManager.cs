@@ -7,37 +7,51 @@ using System;
 
 public class DialogueManager : MonoBehaviour
 {
-    //public Text nameText;
+    SpriteRenderer sr ;
+
     [Serializable]
     public struct ListTextDialogueManager
     {
+        //public Sprite imgNpc;
         public string name;
         public Text dialogueText;
+        public GameObject activateCanvas;
     }
     public ListTextDialogueManager[] listText;
 
     //public Text[] dialogueText;
     private Queue<string> sentences;
-    //DialogueTrigger canvasActive;
 
 
     void Start()
     {
+        sr = gameObject.GetComponent<SpriteRenderer>();
         sentences = new Queue<string>() ;
-        //canvasActive = gameObject.GetComponent<DialogueTrigger>();
+        //sr.sprite();
+    }
+
+    public void DisplayCanvas()
+    {
+        
+        listText[0].activateCanvas.SetActive(true);
+        //StartImageNpc(sprite);
+
+
+    }
+    public void StartImageNpc(Dialogue sprite)
+    {
+        Debug.Log(sprite.imgNPC.name);
+        GameObject.Find("imgNPC").GetComponent<SpriteRenderer>().sprite = sprite.imgNPC;
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
-        //Debug.Log("Instrucciones ");
-
         sentences.Clear();
 
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
-
         DisplayNextSentence();
     }
 
@@ -55,8 +69,8 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        //Debug.Log("Termina");
-        //canvasActive.canvasInstructions[0].SetActive(false);
+        listText[0].activateCanvas.SetActive(false);
+
     }
 
 }
