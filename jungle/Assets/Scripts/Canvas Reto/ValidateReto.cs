@@ -16,7 +16,7 @@ public class ValidateReto : MonoBehaviour
 
     public int experience;
     int variable1 = 0;
-    int variable12 = 0;
+    int variable2 = 0;
 
     OnDropp controller;
     OnDropp controller2;
@@ -27,7 +27,7 @@ public class ValidateReto : MonoBehaviour
     
     Boolean notificationPush = false;
 
-    public enum Valor { Uno = 1, Dos = 2, Tres = 3, Cuatro = 4, Cinco = 5, Seis = 6, Siete = 7, Ocho = 8, Nueve = 9, Diez = 10 }
+    public enum Valor { Cero = 0, Uno = 1, Dos = 2, Tres = 3, Cuatro = 4, Cinco = 5, Seis = 6, Siete = 7, Ocho = 8, Nueve = 9, Diez = 10 }
     public Valor items1;
     public Valor items2;
 
@@ -39,7 +39,7 @@ public class ValidateReto : MonoBehaviour
     {
         drop = GameObject.Find("Drop1");
         drop2 = GameObject.Find("Drop2");
-        Notifications.SetActive(false);
+        //Notifications.SetActive(false);
         timerDisplay = -1.0f;
 
         controller = drop.GetComponent<OnDropp>();
@@ -76,15 +76,15 @@ public class ValidateReto : MonoBehaviour
         Notifications.SetActive(true);
     }
 
-    public void Validacion()
+    public void ValidacionPrimaria()
     {
         variable1 = controller.GetVariable();
-        variable12 = controller2.GetVariable();
+        variable2 = controller2.GetVariable();
 
-        if ((variable1 == (int)items1 || variable1 == (int)items2) && (variable12 == (int)items1 || variable12 == (int)items2))
+        if ((variable1 == (int)items1 || variable1 == (int)items2) && (variable2 == (int)items1 || variable2 == (int)items2))
         {
             activate = true;
-            print(Calculate(operacion, variable1, variable12));
+            print(Calculate(operacion, variable1, variable2));
             notificationPush = true;
 
             if (notificationPush == true) {
@@ -93,15 +93,33 @@ public class ValidateReto : MonoBehaviour
             }
         }
     }
+    public void ValidacionSecundaria()
+    {
+        variable1 = controller.GetVariable();
+        variable2 = controller2.GetVariable();
 
-    public static int Calculate(Operacion operacion, int variable1, int variable12)
+        if ((variable1 == (int)items1 || variable1 == (int)items2) && (variable2 == (int)items1 || variable2 == (int)items2))
+        {
+            activate = true;
+            print(Calculate(operacion, variable1, variable2));
+            notificationPush = true;
+
+            if (notificationPush == true)
+            {
+                DisplayDialog();
+                //Debug.Log("Obtuviste " + experience + " de experiencia");
+            }
+        }
+    }
+
+    public static int Calculate(Operacion operacion, int variable1, int variable2)
     {
         switch (operacion.ToString())
         {
-            case "suma" : return variable1 + variable12;
-            case "resta": return variable1 - variable12;
-            case "multiplicacion": return variable1 * variable12;
-            case "division": return variable1 / variable12;
+            case "suma" : return variable1 + variable2;
+            case "resta": return variable1 - variable2;
+            case "multiplicacion": return variable1 * variable2;
+            case "division": return variable1 / variable2;
             default: throw new Exception("invalid Calculate");
         }
     }

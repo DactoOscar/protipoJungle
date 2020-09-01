@@ -36,19 +36,19 @@ public class GarbagePull : MonoBehaviour
 			transform.position = new Vector3(xPos, transform.position.y);
 			if (grabY)
 			{
-				Debug.Log("Arrastrando en Y");
+				//Debug.Log("Arrastrando en Y");
 				transform.position = new Vector3(xPos, transform.position.y);
 			}
 
 			if (grabX)
 			{
-				Debug.Log("Arrastrando en X");
+				//Debug.Log("Arrastrando en X");
 				transform.position = new Vector3(transform.position.x, yPos);
 			}
 		}
 		else
 		{
-			Debug.Log("Bolsa soltada");
+			//Debug.Log("Bolsa soltada");
 			xPos = transform.position.x;
 			yPos = transform.position.y;
 		}
