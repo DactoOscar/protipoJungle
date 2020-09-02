@@ -89,7 +89,6 @@ public class ValidateReto : MonoBehaviour
 
             if (notificationPush == true) {
                 DisplayDialog();
-                //Debug.Log("Obtuviste " + experience + " de experiencia");
             }
         }
     }
@@ -107,7 +106,6 @@ public class ValidateReto : MonoBehaviour
             if (notificationPush == true)
             {
                 DisplayDialog();
-                //Debug.Log("Obtuviste " + experience + " de experiencia");
             }
         }
     }

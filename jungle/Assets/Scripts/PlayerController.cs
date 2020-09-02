@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
         NonPlayerCharacter();
         DragAndDrop();
         Menu();
-       
+        ConstructionHouse();
     }
 
     void OnDrawGizmos()
@@ -157,6 +157,21 @@ public class PlayerController : MonoBehaviour
         else
         {
             pausa.SetActive(false);
+        }
+    }
+
+
+    void ConstructionHouse()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 0.5f, LayerMask.GetMask("Pieces"));
+
+            if (hit.collider != null)
+            {
+                Pieces part = hit.collider.GetComponent<Pieces>();
+                part.activate();
+            }
         }
     }
 }

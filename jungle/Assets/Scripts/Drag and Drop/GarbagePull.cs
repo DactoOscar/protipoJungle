@@ -72,7 +72,6 @@ public class GarbagePull : MonoBehaviour
 
 		if (controller != null)
 		{
-
 			if (controller.counter < controller.maxCounter)
 			{
 				controller.ChangeCounter(1);
