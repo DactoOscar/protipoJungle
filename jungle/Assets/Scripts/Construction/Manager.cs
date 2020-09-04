@@ -35,7 +35,6 @@ public class Manager : MonoBehaviour
             point = pieces[0].count;
             point = house[0].experience;
             activate = true;
-            objetoCasa.SetActive(false);
         }
     }
 

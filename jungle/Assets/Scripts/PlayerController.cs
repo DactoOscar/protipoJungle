@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     //Para los efectos de sonido del menu pausa
     public GameObject pausa;
     public GameObject bolsa;
+    public GameObject pieza;
     public GameObject dialog;
 
     
@@ -37,7 +38,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         MovementPlayer();
-        NonPlayerCharacter();
         DragAndDrop();
         Menu();
         ConstructionHouse();
@@ -73,29 +73,6 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Look X", lookDirection.x);
         animator.SetFloat("Look Y", lookDirection.y);
         animator.SetFloat("Speed", move.magnitude);
-    }
-
-    void NonPlayerCharacter()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 0.5f, LayerMask.GetMask("Kids"));
-            if (hit.collider != null)
-            {
-
-                NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
-                if (character != null)
-                {
-                    character.DisplayDialog();
-                    dialog.SetActive(true);
-                    Instantiate(dialog);
-                }
-                else
-                {
-                    dialog.SetActive(false);
-                }
-            }
-        }
     }
 
     void DragAndDrop()
@@ -171,6 +148,12 @@ public class PlayerController : MonoBehaviour
             {
                 Pieces part = hit.collider.GetComponent<Pieces>();
                 part.activate();
+                pieza.SetActive(true);
+                Instantiate(pieza);
+            }
+            else
+            {
+                pieza.SetActive(false);
             }
         }
     }

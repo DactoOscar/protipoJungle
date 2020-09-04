@@ -57,6 +57,7 @@ public class ValidateReto : MonoBehaviour
                 Notifications.SetActive(false);
                 canvasReto.SetActive(false);
                 item.SetActive(false);
+                Destroy(item);
                 musicMain.SetActive(true);
             }
         }

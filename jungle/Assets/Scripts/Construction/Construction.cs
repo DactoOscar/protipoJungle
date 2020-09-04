@@ -1,12 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Construction : MonoBehaviour
 {
-    public GameObject built;
-
     public int maxCounter;
+
+    [Serializable]
+    public struct ListPieces
+    {
+        public string name;
+        public GameObject pieza;
+    }
+    public ListPieces[] piezas;
 
     public int counter { get { return piecesCounter; } }
     private int piecesCounter;
@@ -24,11 +31,11 @@ public class Construction : MonoBehaviour
         piecesCounter = Mathf.Clamp(piecesCounter + amount, 0, maxCounter);
 
         Debug.Log(piecesCounter + "/" + maxCounter + " piezas");
+
         if (piecesCounter == maxCounter)
-        {
+        { 
             isFull = true;
             Debug.Log("CONSTRUISTE LA CASA!!");
-            built.SetActive(true);
         }
     }
 
