@@ -7,8 +7,9 @@ public class Pieces : MonoBehaviour
     public Construction objectHouse;
 	public GameObject objectPieces;
 	public GameObject syncPiece;
+	public bool state = false;
 
-    void Update()
+	void Update()
     {
 		
 	}
@@ -20,9 +21,13 @@ public class Pieces : MonoBehaviour
 			if (objectHouse.counter < objectHouse.maxCounter)
 			{
 				if (syncPiece.activeInHierarchy == false) {
-					objectHouse.ChangeCounter(1);
-					syncPiece.SetActive(true);
-					Destroy(gameObject);
+					if (state == true) {
+						PiecesChallenge pie = GetComponent<PiecesChallenge>();
+						pie.pressButton();
+					}
+						objectHouse.ChangeCounter(1);
+						syncPiece.SetActive(true);
+						Destroy(gameObject);
 				}
 			}
 		}

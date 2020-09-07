@@ -144,6 +144,8 @@ public class PlayerController : MonoBehaviour
         {
             RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 0.5f, LayerMask.GetMask("Pieces"));
 
+            //SI SE ACTIVA UNA PIEZA COMÚN 
+
             if (hit.collider != null)
             {
                 Pieces part = hit.collider.GetComponent<Pieces>();

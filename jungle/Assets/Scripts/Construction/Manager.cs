@@ -27,7 +27,6 @@ public class Manager : MonoBehaviour
     }
     public listPieces[] pieces;
 
-
     void Update()
     {
         if (house[0].contenedor.isFull)

@@ -28,13 +28,20 @@ public class CollectorManager : MonoBehaviour
 
     void Update()
     {
-        if (contenedores[0].contenedor.isFull && contenedores[1].contenedor.isFull)
-        {
-            listCollectables[0].collectable.SetActive(true);
-            xp = listCollectables[0].experience;
-            Debug.Log("Get XP: " + xp);
-            activate = true;
+        if (!activate) {
+            if (contenedores[0].contenedor.isFull && contenedores[1].contenedor.isFull)
+            {
+                listCollectables[0].collectable.SetActive(true);
+                xp = listCollectables[0].experience;
+                Debug.Log("Get XP: " + xp);
+            }
         }
+
+        if (xp != 0 && activate == true)
+        {
+            listCollectables[0].collectable.SetActive(false);
+        }
+
     }
 
     public int points()
