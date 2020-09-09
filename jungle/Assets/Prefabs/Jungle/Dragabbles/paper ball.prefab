@@ -140,7 +140,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -12.98, y: -3.93}
+  m_ConnectedAnchor: {x: 492.14056, y: 121.14378}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!61 &131276609869387727
