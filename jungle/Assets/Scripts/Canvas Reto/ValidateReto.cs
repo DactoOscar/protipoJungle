@@ -103,7 +103,7 @@ public class ValidateReto : MonoBehaviour
         if ((variable1 == (int)items1 || variable1 == (int)items2) && (variable2 == (int)items1 || variable2 == (int)items2))
         {
             activate = true;
-            print(Calculate(operacion, variable1, variable2));
+            //print(Calculate(operacion, variable1, variable2));
             notificationPush = true;
 
             if (notificationPush == true)
