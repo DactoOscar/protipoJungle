@@ -7,6 +7,7 @@ public class CollectorManager : MonoBehaviour
 {
     internal int xp;
     internal Boolean activate, activate2;
+    //public String nameReto;
   
     [Serializable]
     public struct ListContainer
@@ -25,18 +26,27 @@ public class CollectorManager : MonoBehaviour
     }
     public ListCollectable[] listCollectables;
 
+    public void Start()
+    {
+        for (int i = 0; i < contenedores.Length; i++)
+        {
+            print(i+"contenedores: " + contenedores[i].name);
+
+        }
+
+    }
 
     void Update()
     {
-        
-        print("list contenedores: "+ contenedores.Length);
-        //if(!activate) {
-            //if (contenedores[0].contenedor.isFull && contenedores[1].contenedor.isFull)
-            //{
-            //    listCollectables[0].collectable.SetActive(true);
-            //    xp = listCollectables[0].experience;
-            //    Debug.Log("Get XP: " + xp);
-            //}
+
+        if (!activate)
+        {
+            if (contenedores[0].contenedor.isFull && contenedores[1].contenedor.isFull)
+            {
+                listCollectables[0].collectable.SetActive(true);
+                xp = listCollectables[0].experience;
+                Debug.Log("Get XP: " + xp);
+            }
             //if (contenedores[2].contenedor.isFull && contenedores[3].contenedor.isFull)
             //{
             //    listCollectables[1].collectable.SetActive(true);
@@ -68,7 +78,7 @@ public class CollectorManager : MonoBehaviour
             //    Debug.Log("Get XP: " + xp);
             //}
 
-        //}
+        }
 
         if (xp!= 0 && activate)
         {
