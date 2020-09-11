@@ -49,7 +49,7 @@ public class ValidateReto : MonoBehaviour
 
     void Update()
     {
-        CollectorManager collecti = GetComponent<CollectorManager>();
+        //CollectorManager collecti = GetComponent<CollectorManager>();
         if (timerDisplay >= 0)
         {
             timerDisplay -= Time.deltaTime;
@@ -58,8 +58,8 @@ public class ValidateReto : MonoBehaviour
                 Notifications.SetActive(false);
                 canvasReto.SetActive(false);
                 item.SetActive(false);
-                collecti.activate = true;
-                //Destroy(item);
+                //collecti.activate = true;
+                Destroy(item);
                 musicMain.SetActive(true);
             }
         }
