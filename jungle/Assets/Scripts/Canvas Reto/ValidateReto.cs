@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.UI;
+
+
 
 public class ValidateReto : MonoBehaviour
 {
@@ -23,8 +26,10 @@ public class ValidateReto : MonoBehaviour
     GameObject drop;
     GameObject drop2;
     public bool activate;
-    
-    
+
+    public int tries;
+    public Text txtTries;
+
     Boolean notificationPush = false;
 
     public enum Valor { Cero = 0, Uno = 1, Dos = 2, Tres = 3, Cuatro = 4, Cinco = 5, Seis = 6, Siete = 7, Ocho = 8, Nueve = 9, Diez = 10 }
@@ -37,6 +42,7 @@ public class ValidateReto : MonoBehaviour
 
     void Start()
     {
+        txtTries.text = tries + " Intentos";
         drop = GameObject.Find("Drop1");
         drop2 = GameObject.Find("Drop2");
         //Notifications.SetActive(false);
@@ -81,8 +87,8 @@ public class ValidateReto : MonoBehaviour
 
     public void ValidacionPrimaria()
     {
-        variable1 = controller.GetVariable();
-        variable2 = controller2.GetVariable();
+        variable1 = controller.GetVariableOnDrop();
+        variable2 = controller2.GetVariableOnDrop();
 
         if ((variable1 == (int)items1 || variable1 == (int)items2) && (variable2 == (int)items1 || variable2 == (int)items2))
         {
@@ -94,13 +100,19 @@ public class ValidateReto : MonoBehaviour
                 DisplayDialog();
             }
         }
+        else
+        {
+            tries -= 1;
+            txtTries.text = tries + " Intentos";
+
+        }
     }
     public void ValidacionSecundaria()
     {
-        variable1 = controller.GetVariable();
-        variable2 = controller2.GetVariable();
+        variable1 = controller.GetVariableOnDrop();
+        //variable2 = controller2.GetVariableOnDrop();
 
-        if ((variable1 == (int)items1 || variable1 == (int)items2) && (variable2 == (int)items1 || variable2 == (int)items2))
+        if (variable1 == (int)items1 )
         {
             activate = true;
             //print(Calculate(operacion, variable1, variable2));
@@ -109,6 +121,15 @@ public class ValidateReto : MonoBehaviour
             if (notificationPush == true)
             {
                 DisplayDialog();
+            }
+        }
+        else
+        {
+            tries -= 1;
+            txtTries.text = tries + " Intentos";
+            if(tries == 0)
+            {
+                Salir();
             }
         }
     }
@@ -124,6 +145,8 @@ public class ValidateReto : MonoBehaviour
             default: throw new Exception("invalid Calculate");
         }
     }
+
+   
 
     public void Salir()
     {

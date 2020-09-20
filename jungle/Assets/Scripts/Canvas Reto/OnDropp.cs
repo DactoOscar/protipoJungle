@@ -64,7 +64,7 @@ public class OnDropp : MonoBehaviour, IDropHandler
         isFull = false;
     }
 
-    public int GetVariable()
+    public int GetVariableOnDrop()
     {
         return sendVariable;
     }
