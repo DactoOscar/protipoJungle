@@ -7,7 +7,7 @@ public class TextScript : MonoBehaviour
 {
     public Text miText;
     ValidateReto controllerValidarReto;
-    private int xp = 0;
+    private int xp;
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class TextScript : MonoBehaviour
 
     public void Notification() {
         xp = controllerValidarReto.experience;
-        miText.text = "Ganaste " + xp + " puntos!!";
-        Debug.Log(xp);
+        miText.text = "¡Ganaste " + xp + " puntos!";
+        //Debug.Log(xp);
     }
 }

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Playables;
 using UnityEngine.UI;
 
 
@@ -11,11 +8,18 @@ public class ValidateReto : MonoBehaviour
 {
     public GameObject canvasReto;
     public GameObject musicMain;
-    public GameObject item;
+
+    public GameObject collectable;
 
     public GameObject Notifications;
-    public float displayTime = 4.0f;
+    public GameObject NotificationError;
+
+    public float displayTime;
     float timerDisplay;
+
+    public float displayTimeError;
+    float timerDisplayError;
+
 
     public int experience;
     int variable1 = 0;
@@ -30,13 +34,13 @@ public class ValidateReto : MonoBehaviour
     public int tries;
     public Text txtTries;
 
-    Boolean notificationPush = false;
+    //Boolean notificationPush = false;
 
     public enum Valor { Cero = 0, Uno = 1, Dos = 2, Tres = 3, Cuatro = 4, Cinco = 5, Seis = 6, Siete = 7, Ocho = 8, Nueve = 9, Diez = 10 }
     public Valor items1;
     public Valor items2;
 
-    public enum Operacion {suma,resta,multiplicacion,division}
+    public enum Operacion { suma, resta, multiplicacion, division }
     public Operacion operacion;
 
 
@@ -55,35 +59,59 @@ public class ValidateReto : MonoBehaviour
 
     void Update()
     {
-        //CollectorManager collecti = GetComponent<CollectorManager>();
         if (timerDisplay >= 0)
         {
             timerDisplay -= Time.deltaTime;
+            
+
             if (timerDisplay < 0)
             {
                 Notifications.SetActive(false);
-                canvasReto.SetActive(false);
-                item.SetActive(false);
+                //canvasReto.SetActive(false);
+                Salir();
+                collectable.SetActive(false);
                 musicMain.SetActive(true);
                 //collecti.activate = true;
-                Destroy(item);
+                Destroy(collectable);
+            }
+        }
+        if (timerDisplayError >= 0)
+        {
+            timerDisplayError -= Time.deltaTime;
+
+
+            if (timerDisplayError < 0)
+            {
+                NotificationError.SetActive(false);
+                
+
+                //musicMain.SetActive(true);
+
             }
         }
     }
 
     public int GetExperience()
     {
-        if (activate == true) {
+        if (activate == true)
+        {
             return experience;
         }
-      return 0;
+        return 0;
     }
 
     public void DisplayDialog()
     {
         timerDisplay = displayTime;
         Notifications.SetActive(true);
+        
     }
+    public void DisplayError()
+    {
+        timerDisplayError = displayTimeError;
+        NotificationError.SetActive(true);
+    }
+
 
     public void ValidacionPrimaria()
     {
@@ -93,18 +121,18 @@ public class ValidateReto : MonoBehaviour
         if ((variable1 == (int)items1 || variable1 == (int)items2) && (variable2 == (int)items1 || variable2 == (int)items2))
         {
             activate = true;
-            print("El resultado es: "+Calculate(operacion, variable1, variable2));
-            notificationPush = true;
-
-            if (notificationPush == true) {
-                DisplayDialog();
-            }
+            print("El resultado es: " + Calculate(operacion, variable1, variable2));
+            DisplayDialog();
         }
         else
         {
+            DisplayError();
             tries -= 1;
             txtTries.text = tries + " Intentos";
-
+            if (tries == 0)
+            {
+                Salir();
+            }
         }
     }
     public void ValidacionSecundaria()
@@ -112,22 +140,20 @@ public class ValidateReto : MonoBehaviour
         variable1 = controller.GetVariableOnDrop();
         //variable2 = controller2.GetVariableOnDrop();
 
-        if (variable1 == (int)items1 )
+        if (variable1 == (int)items1)
         {
             activate = true;
             //print(Calculate(operacion, variable1, variable2));
-            notificationPush = true;
+            //notificationPush = true;
+            DisplayDialog();
 
-            if (notificationPush == true)
-            {
-                DisplayDialog();
-            }
         }
         else
         {
+            DisplayError();
             tries -= 1;
             txtTries.text = tries + " Intentos";
-            if(tries == 0)
+            if (tries == 0)
             {
                 Salir();
             }
@@ -138,19 +164,18 @@ public class ValidateReto : MonoBehaviour
     {
         switch (operacion.ToString())
         {
-            case "suma" : return variable1 + variable2;
+            case "suma": return variable1 + variable2;
             case "resta": return variable1 - variable2;
             case "multiplicacion": return variable1 * variable2;
             case "division": return variable1 / variable2;
             default: throw new Exception("invalid Calculate");
         }
     }
-
-   
-
     public void Salir()
     {
+        NotificationError.SetActive(false);
         canvasReto.SetActive(false);
+
     }
 
 
