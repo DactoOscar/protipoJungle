@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu Screen.unity
     guid: c2bca1b41bb36004f972b0acb2500872
   - enabled: 1
-    path: Assets/Scenes/Jungle.unity
+    path: Assets/Scenes/Game.unity
     guid: e2d4294b125e1c845adecc4b09b42749
   m_configObjects: {}
