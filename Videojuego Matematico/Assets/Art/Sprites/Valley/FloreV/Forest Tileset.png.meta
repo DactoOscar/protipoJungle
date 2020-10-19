@@ -1,0 +1,2420 @@
+fileFormatVersion: 2
+guid: 2498f7c02d327a34daf5d2634b9c63fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3647368606938570174
+    second: Forest Tileset_0
+  - first:
+      213: -6870542529362793275
+    second: Forest Tileset_1
+  - first:
+      213: 1255584786854578133
+    second: Forest Tileset_2
+  - first:
+      213: -631273287477559015
+    second: Forest Tileset_3
+  - first:
+      213: 2714843214671482105
+    second: Forest Tileset_4
+  - first:
+      213: -3314047186369486953
+    second: Forest Tileset_5
+  - first:
+      213: -6802116242281433236
+    second: Forest Tileset_6
+  - first:
+      213: 5563611102164863311
+    second: Forest Tileset_7
+  - first:
+      213: -2959114811444027826
+    second: Forest Tileset_8
+  - first:
+      213: 6866058042058038639
+    second: Forest Tileset_9
+  - first:
+      213: 7381491287158352987
+    second: Forest Tileset_10
+  - first:
+      213: -1215141258707690016
+    second: Forest Tileset_11
+  - first:
+      213: -4190005783902314971
+    second: Forest Tileset_12
+  - first:
+      213: 6822186211686799154
+    second: Forest Tileset_13
+  - first:
+      213: 8803236894550959372
+    second: Forest Tileset_14
+  - first:
+      213: -60961643630282767
+    second: Forest Tileset_15
+  - first:
+      213: 7291910737869101710
+    second: Forest Tileset_16
+  - first:
+      213: 8346394965722303424
+    second: Forest Tileset_17
+  - first:
+      213: -6147145871996200925
+    second: Forest Tileset_18
+  - first:
+      213: -6496091343588039017
+    second: Forest Tileset_19
+  - first:
+      213: -4547244630465114309
+    second: Forest Tileset_20
+  - first:
+      213: 154657116646106969
+    second: Forest Tileset_21
+  - first:
+      213: -1076671905824883939
+    second: Forest Tileset_22
+  - first:
+      213: -5678052915133173449
+    second: Forest Tileset_23
+  - first:
+      213: 3432174602477791044
+    second: Forest Tileset_24
+  - first:
+      213: -5792208439701358492
+    second: Forest Tileset_25
+  - first:
+      213: 9213555679852629669
+    second: Forest Tileset_26
+  - first:
+      213: 413767873875251423
+    second: Forest Tileset_27
+  - first:
+      213: -8223633774354347831
+    second: Forest Tileset_28
+  - first:
+      213: 3391940078183863026
+    second: Forest Tileset_29
+  - first:
+      213: -4217458678851735999
+    second: Forest Tileset_30
+  - first:
+      213: 4742361525734480710
+    second: Forest Tileset_31
+  - first:
+      213: -2864873368356063692
+    second: Forest Tileset_32
+  - first:
+      213: -961615608651957618
+    second: Forest Tileset_33
+  - first:
+      213: -1520934345291240280
+    second: Forest Tileset_34
+  - first:
+      213: 8992884177597959273
+    second: Forest Tileset_35
+  - first:
+      213: 1630097846320504057
+    second: Forest Tileset_36
+  - first:
+      213: -7663580337671609648
+    second: Forest Tileset_37
+  - first:
+      213: -7518512707838311522
+    second: Forest Tileset_38
+  - first:
+      213: -4686766430005439079
+    second: Forest Tileset_39
+  - first:
+      213: 8062894698274563669
+    second: Forest Tileset_40
+  - first:
+      213: -8214310355348064746
+    second: Forest Tileset_41
+  - first:
+      213: 4961558633336868329
+    second: Forest Tileset_42
+  - first:
+      213: -6969867641519681805
+    second: Forest Tileset_43
+  - first:
+      213: -4406807416687183405
+    second: Forest Tileset_44
+  - first:
+      213: -2563226264497290237
+    second: Forest Tileset_45
+  - first:
+      213: 1228428027406698959
+    second: Forest Tileset_46
+  - first:
+      213: 6566820755865991976
+    second: Forest Tileset_47
+  - first:
+      213: 5995820203500210790
+    second: Forest Tileset_48
+  - first:
+      213: 4771659411206297319
+    second: Forest Tileset_49
+  - first:
+      213: -8763195492478770071
+    second: Forest Tileset_50
+  - first:
+      213: 8049919073058281676
+    second: Forest Tileset_51
+  - first:
+      213: -807668141427068385
+    second: Forest Tileset_52
+  - first:
+      213: -6715320867127811800
+    second: Forest Tileset_53
+  - first:
+      213: -5389224000973118688
+    second: Forest Tileset_54
+  - first:
+      213: -27642648375622384
+    second: Forest Tileset_55
+  - first:
+      213: -8096013121113028901
+    second: Forest Tileset_56
+  - first:
+      213: 1727088677165454143
+    second: Forest Tileset_57
+  - first:
+      213: 6384807383398435392
+    second: Forest Tileset_58
+  - first:
+      213: 6661108942218483692
+    second: Forest Tileset_59
+  - first:
+      213: 7680471413588937892
+    second: Forest Tileset_60
+  - first:
+      213: 7489429710137237477
+    second: Forest Tileset_61
+  - first:
+      213: 2955473020028443139
+    second: Forest Tileset_62
+  - first:
+      213: -2968490684428614742
+    second: Forest Tileset_63
+  - first:
+      213: 4548178887451367354
+    second: Forest Tileset_64
+  - first:
+      213: -9000696498731550259
+    second: Forest Tileset_65
+  - first:
+      213: -1426148112030731884
+    second: Forest Tileset_66
+  - first:
+      213: -2116470666184336923
+    second: Forest Tileset_67
+  - first:
+      213: -6649694844080592364
+    second: Forest Tileset_68
+  - first:
+      213: -1573399679948405372
+    second: Forest Tileset_69
+  - first:
+      213: -6063618799993414275
+    second: Forest Tileset_70
+  - first:
+      213: -659588429482657619
+    second: Forest Tileset_71
+  - first:
+      213: 5237383993469117415
+    second: Forest Tileset_72
+  - first:
+      213: 6511616415843282462
+    second: Forest Tileset_73
+  - first:
+      213: 5222555620424980663
+    second: Forest Tileset_74
+  - first:
+      213: 5340678759537923376
+    second: Forest Tileset_75
+  - first:
+      213: -2130249282094791759
+    second: Forest Tileset_76
+  - first:
+      213: -2962884058037287997
+    second: Forest Tileset_77
+  - first:
+      213: 8793314218573924096
+    second: Forest Tileset_78
+  - first:
+      213: 7415440472680993576
+    second: Forest Tileset_79
+  - first:
+      213: -9113498859150672071
+    second: Forest Tileset_80
+  - first:
+      213: 6442629768254849251
+    second: Forest Tileset_81
+  - first:
+      213: -5932368777723007562
+    second: Forest Tileset_82
+  - first:
+      213: -85954536339396285
+    second: Forest Tileset_83
+  - first:
+      213: -4614001735812456840
+    second: Forest Tileset_84
+  - first:
+      213: -42843964196374021
+    second: Forest Tileset_85
+  - first:
+      213: -1142190955715249654
+    second: Forest Tileset_86
+  - first:
+      213: 6973263465229173300
+    second: Forest Tileset_87
+  - first:
+      213: 8439940451382598499
+    second: Forest Tileset_88
+  - first:
+      213: 3803353818391521535
+    second: Forest Tileset_89
+  - first:
+      213: -4544118321664156906
+    second: Forest Tileset_90
+  - first:
+      213: 1375014314554206815
+    second: Forest Tileset_91
+  - first:
+      213: -8225406680069608885
+    second: Forest Tileset_92
+  - first:
+      213: 1459274226785031106
+    second: Forest Tileset_93
+  - first:
+      213: 961548616110761438
+    second: Forest Tileset_94
+  - first:
+      213: 3617590517174095930
+    second: Forest Tileset_95
+  - first:
+      213: 507210508758367740
+    second: Forest Tileset_96
+  - first:
+      213: 5414727110955495965
+    second: Forest Tileset_97
+  - first:
+      213: -8544523452094383588
+    second: Forest Tileset_98
+  - first:
+      213: 8823364562958130571
+    second: Forest Tileset_99
+  - first:
+      213: 1637583522839890839
+    second: Forest Tileset_100
+  - first:
+      213: -5778244199031732761
+    second: Forest Tileset_101
+  - first:
+      213: 5317441691253403870
+    second: Forest Tileset_102
+  - first:
+      213: 8706336303973513444
+    second: Forest Tileset_103
+  - first:
+      213: 3862141940738814296
+    second: Forest Tileset_104
+  - first:
+      213: 5075100906952251394
+    second: Forest Tileset_105
+  - first:
+      213: -1964923442146457387
+    second: Forest Tileset_106
+  - first:
+      213: -7336147445627594934
+    second: Forest Tileset_107
+  - first:
+      213: -330881508905148102
+    second: Forest Tileset_108
+  - first:
+      213: 5210541928394955954
+    second: Forest Tileset_109
+  - first:
+      213: -5177176136814074346
+    second: Forest Tileset_110
+  - first:
+      213: -6775717395900490242
+    second: Forest Tileset_111
+  - first:
+      213: 9212013505894087683
+    second: Forest Tileset_112
+  - first:
+      213: 1512435179367972205
+    second: Forest Tileset_113
+  - first:
+      213: -2079083014608768254
+    second: Forest Tileset_114
+  - first:
+      213: -4569407805439540553
+    second: Forest Tileset_115
+  - first:
+      213: 3431847305563527898
+    second: Forest Tileset_116
+  - first:
+      213: 5475232911211698083
+    second: Forest Tileset_117
+  - first:
+      213: -2311867305960502440
+    second: Forest Tileset_118
+  - first:
+      213: -3139272806988757616
+    second: Forest Tileset_119
+  - first:
+      213: 7369966786106231526
+    second: Forest Tileset_120
+  - first:
+      213: -2115705375486290979
+    second: Forest Tileset_121
+  - first:
+      213: 6271647896458402371
+    second: Forest Tileset_122
+  - first:
+      213: 8573236953197260086
+    second: Forest Tileset_123
+  - first:
+      213: -7638712618038045650
+    second: Forest Tileset_124
+  - first:
+      213: -1460306412560033349
+    second: Forest Tileset_125
+  - first:
+      213: 991490515461682094
+    second: Forest Tileset_126
+  - first:
+      213: -8472328656938613049
+    second: Forest Tileset_127
+  - first:
+      213: -7252348324355354291
+    second: Forest Tileset_128
+  - first:
+      213: 475830217333567586
+    second: Forest Tileset_129
+  - first:
+      213: 4761437178256935425
+    second: Forest Tileset_130
+  - first:
+      213: 8907055979916444901
+    second: Forest Tileset_131
+  - first:
+      213: 6284890394310040430
+    second: Forest Tileset_132
+  - first:
+      213: 3861148203967705624
+    second: Forest Tileset_133
+  - first:
+      213: -5504304583675863069
+    second: Forest Tileset_134
+  - first:
+      213: 7465555230286177363
+    second: Forest Tileset_135
+  - first:
+      213: -8279413310612562373
+    second: Forest Tileset_136
+  - first:
+      213: -2561984680601552853
+    second: Forest Tileset_137
+  - first:
+      213: -7077316178999316149
+    second: Forest Tileset_138
+  - first:
+      213: -4389705863346566469
+    second: Forest Tileset_139
+  - first:
+      213: -8112696919884203692
+    second: Forest Tileset_140
+  - first:
+      213: 6726590595311893196
+    second: Forest Tileset_141
+  - first:
+      213: -6412236002488999486
+    second: Forest Tileset_142
+  - first:
+      213: 3964987636214767995
+    second: Forest Tileset_143
+  - first:
+      213: -7818845869516230863
+    second: Forest Tileset_144
+  - first:
+      213: -1704102618084455564
+    second: Forest Tileset_145
+  - first:
+      213: 7452720157438021621
+    second: Forest Tileset_146
+  - first:
+      213: 2009893704192847250
+    second: Forest Tileset_147
+  - first:
+      213: -4607899316827142687
+    second: Forest Tileset_148
+  - first:
+      213: -600266709359056087
+    second: Forest Tileset_149
+  - first:
+      213: -6799485931633305881
+    second: Forest Tileset_150
+  - first:
+      213: 44839718112295719
+    second: Forest Tileset_151
+  - first:
+      213: -4586656535447711873
+    second: Forest Tileset_152
+  - first:
+      213: 5097519287674700778
+    second: Forest Tileset_153
+  - first:
+      213: -4057566082317586732
+    second: Forest Tileset_154
+  - first:
+      213: 952791687902727231
+    second: Forest Tileset_155
+  - first:
+      213: -7690750094942806968
+    second: Forest Tileset_156
+  - first:
+      213: 5851301530786459067
+    second: Forest Tileset_157
+  - first:
+      213: -6824400236552220686
+    second: Forest Tileset_158
+  - first:
+      213: 80297035807714326
+    second: Forest Tileset_159
+  - first:
+      213: 2533763584552521210
+    second: Forest Tileset_160
+  - first:
+      213: -943587833503976828
+    second: Forest Tileset_161
+  - first:
+      213: 7226302833857605565
+    second: Forest Tileset_162
+  - first:
+      213: 7430795397154423110
+    second: Forest Tileset_163
+  - first:
+      213: 4273161956697655204
+    second: Forest Tileset_164
+  - first:
+      213: 2231155084120566233
+    second: Forest Tileset_165
+  - first:
+      213: -8991422062555378417
+    second: Forest Tileset_166
+  - first:
+      213: -8302347230816054909
+    second: Forest Tileset_167
+  - first:
+      213: -6678033060681327610
+    second: Forest Tileset_168
+  - first:
+      213: -3328426669615583001
+    second: Forest Tileset_169
+  - first:
+      213: -7610702666398567620
+    second: Forest Tileset_170
+  - first:
+      213: 7544435774244479757
+    second: Forest Tileset_171
+  - first:
+      213: 2885765840406632162
+    second: Forest Tileset_172
+  - first:
+      213: 8855381334749515175
+    second: Forest Tileset_173
+  - first:
+      213: 150191517301243776
+    second: Forest Tileset_174
+  - first:
+      213: 6044148430133608822
+    second: Forest Tileset_175
+  - first:
+      213: -7654855644485809634
+    second: Forest Tileset_176
+  - first:
+      213: -761789031038269721
+    second: Forest Tileset_177
+  - first:
+      213: 3309813650573955624
+    second: Forest Tileset_178
+  - first:
+      213: 2687521673980986789
+    second: Forest Tileset_179
+  - first:
+      213: -4147227008466060206
+    second: Forest Tileset_180
+  - first:
+      213: -1393097049330593456
+    second: Forest Tileset_181
+  - first:
+      213: -2195548466897238167
+    second: Forest Tileset_182
+  - first:
+      213: 5228407070378868548
+    second: Forest Tileset_183
+  - first:
+      213: -4532237307868749228
+    second: Forest Tileset_184
+  - first:
+      213: 967832134507880192
+    second: Forest Tileset_185
+  - first:
+      213: -8537235429017245175
+    second: Forest Tileset_186
+  - first:
+      213: -4498835413056320202
+    second: Forest Tileset_187
+  - first:
+      213: -4120206231884994107
+    second: Forest Tileset_188
+  - first:
+      213: -8647677780286845969
+    second: Forest Tileset_189
+  - first:
+      213: -6339136459969206854
+    second: Forest Tileset_190
+  - first:
+      213: -6669227037736019653
+    second: Forest Tileset_191
+  - first:
+      213: -4757815745630762048
+    second: Forest Tileset_192
+  - first:
+      213: 4050808039490602651
+    second: Forest Tileset_193
+  - first:
+      213: -1499730896424417464
+    second: Forest Tileset_194
+  - first:
+      213: 1990494389338622343
+    second: Forest Tileset_195
+  - first:
+      213: 6248605656024481142
+    second: Forest Tileset_196
+  - first:
+      213: -5611678710577873791
+    second: Forest Tileset_197
+  - first:
+      213: 117619989213167570
+    second: Forest Tileset_198
+  - first:
+      213: -4547676010398287644
+    second: Forest Tileset_199
+  - first:
+      213: 3375364325634772680
+    second: Forest Tileset_200
+  - first:
+      213: 3056683890059495428
+    second: Forest Tileset_201
+  - first:
+      213: 8898259409645370794
+    second: Forest Tileset_202
+  - first:
+      213: -974857495932080059
+    second: Forest Tileset_203
+  - first:
+      213: 2446369736293641679
+    second: Forest Tileset_204
+  - first:
+      213: -3316016074288230147
+    second: Forest Tileset_205
+  - first:
+      213: -1872505171599138147
+    second: Forest Tileset_206
+  - first:
+      213: 7043265110234654418
+    second: Forest Tileset_207
+  - first:
+      213: 10111187082590911
+    second: Forest Tileset_208
+  - first:
+      213: 2327645960554192824
+    second: Forest Tileset_209
+  - first:
+      213: 2586754804459351510
+    second: Forest Tileset_210
+  - first:
+      213: -1222685040650349006
+    second: Forest Tileset_211
+  - first:
+      213: 7975325949351093528
+    second: Forest Tileset_212
+  - first:
+      213: -2871081175846390919
+    second: Forest Tileset_213
+  - first:
+      213: 2534317926473906758
+    second: Forest Tileset_214
+  - first:
+      213: 2502427743252696052
+    second: Forest Tileset_215
+  - first:
+      213: 1658235720187564988
+    second: Forest Tileset_216
+  - first:
+      213: -2336148322626485128
+    second: Forest Tileset_217
+  - first:
+      213: 7317980823519076395
+    second: Forest Tileset_218
+  - first:
+      213: 4399834086594588671
+    second: Forest Tileset_219
+  - first:
+      213: 6860480824740896519
+    second: Forest Tileset_220
+  - first:
+      213: 7694454611953917134
+    second: Forest Tileset_221
+  - first:
+      213: 7028343681136577529
+    second: Forest Tileset_222
+  - first:
+      213: -8964582725864304481
+    second: Forest Tileset_223
+  - first:
+      213: -2767514308680752968
+    second: Forest Tileset_224
+  - first:
+      213: 5109654168474772680
+    second: Forest Tileset_225
+  - first:
+      213: 7115031553326412344
+    second: Forest Tileset_226
+  - first:
+      213: 355029928978126970
+    second: Forest Tileset_227
+  - first:
+      213: -3901678993371862527
+    second: Forest Tileset_228
+  - first:
+      213: -3139088306431990883
+    second: Forest Tileset_229
+  - first:
+      213: -2143794640583479209
+    second: Forest Tileset_230
+  - first:
+      213: 8324798451718858275
+    second: Forest Tileset_231
+  - first:
+      213: -5338972084322417796
+    second: Forest Tileset_232
+  - first:
+      213: 6883427513740148633
+    second: Forest Tileset_233
+  - first:
+      213: -8952569271688868689
+    second: Forest Tileset_234
+  - first:
+      213: -7278627457552045765
+    second: Forest Tileset_235
+  - first:
+      213: 3993799018206046123
+    second: Forest Tileset_236
+  - first:
+      213: -4735587028262303772
+    second: Forest Tileset_237
+  - first:
+      213: 1747188253205152749
+    second: Forest Tileset_238
+  - first:
+      213: 8145989296757219656
+    second: Forest Tileset_239
+  - first:
+      213: -6759900768223130790
+    second: Forest Tileset_240
+  - first:
+      213: -8904226936134120598
+    second: Forest Tileset_241
+  - first:
+      213: 7967321749725481782
+    second: Forest Tileset_242
+  - first:
+      213: 7529439871256865644
+    second: Forest Tileset_243
+  - first:
+      213: -3498933831438272804
+    second: Forest Tileset_244
+  - first:
+      213: -2798060283894098376
+    second: Forest Tileset_245
+  - first:
+      213: 6418304609197162223
+    second: Forest Tileset_246
+  - first:
+      213: 5992138574026629991
+    second: Forest Tileset_247
+  - first:
+      213: 3728752639085608310
+    second: Forest Tileset_248
+  - first:
+      213: 298307689573130291
+    second: Forest Tileset_249
+  - first:
+      213: 8228895881730330154
+    second: Forest Tileset_250
+  - first:
+      213: 5203529459697852960
+    second: Forest Tileset_251
+  - first:
+      213: 9058429967146263378
+    second: Forest Tileset_252
+  - first:
+      213: -7167217401825421045
+    second: Forest Tileset_253
+  - first:
+      213: -3199474113933678260
+    second: Forest Tileset_254
+  - first:
+      213: 3598880061787302079
+    second: Forest Tileset_255
+  - first:
+      213: 8385705781394189055
+    second: Forest Tileset_256
+  - first:
+      213: -5408077507214469512
+    second: Forest Tileset_257
+  - first:
+      213: 2332459907324514113
+    second: Forest Tileset_258
+  - first:
+      213: 2841968688170952553
+    second: Forest Tileset_259
+  - first:
+      213: 4087357153457083280
+    second: Forest Tileset_260
+  - first:
+      213: 1634158212727171226
+    second: Forest Tileset_261
+  - first:
+      213: 5023511201855430539
+    second: Forest Tileset_262
+  - first:
+      213: -4610587325681387830
+    second: Forest Tileset_263
+  - first:
+      213: -1598195299767742311
+    second: Forest Tileset_264
+  - first:
+      213: 8541431552861983483
+    second: Forest Tileset_265
+  - first:
+      213: 936944249584444569
+    second: Forest Tileset_266
+  - first:
+      213: -3557734277328062029
+    second: Forest Tileset_267
+  - first:
+      213: 5226467187638849619
+    second: Forest Tileset_268
+  - first:
+      213: -6536795971917780035
+    second: Forest Tileset_269
+  - first:
+      213: -4458323623512383432
+    second: Forest Tileset_270
+  - first:
+      213: -8882964354541800710
+    second: Forest Tileset_271
+  - first:
+      213: -4458485184690674674
+    second: Forest Tileset_272
+  - first:
+      213: 8094429780262785450
+    second: Forest Tileset_273
+  - first:
+      213: 8005685027524966627
+    second: Forest Tileset_274
+  - first:
+      213: -1779769592070488750
+    second: Forest Tileset_275
+  - first:
+      213: 202465778627105043
+    second: Forest Tileset_276
+  - first:
+      213: -6698949399724212595
+    second: Forest Tileset_277
+  - first:
+      213: 1660074164926538799
+    second: Forest Tileset_278
+  - first:
+      213: -4362825998485257357
+    second: Forest Tileset_279
+  - first:
+      213: 9196338849907968371
+    second: Forest Tileset_280
+  - first:
+      213: 85824581539262267
+    second: Forest Tileset_281
+  - first:
+      213: -1431365506619404254
+    second: Forest Tileset_282
+  - first:
+      213: 6220351270699087071
+    second: Forest Tileset_283
+  - first:
+      213: -3965585092410503665
+    second: Forest Tileset_284
+  - first:
+      213: -1635827307372333138
+    second: Forest Tileset_285
+  - first:
+      213: 709270735911099389
+    second: Forest Tileset_286
+  - first:
+      213: -4286630785264322944
+    second: Forest Tileset_287
+  - first:
+      213: 1525359867524291780
+    second: Forest Tileset_288
+  - first:
+      213: 7846911826659596384
+    second: Forest Tileset_289
+  - first:
+      213: 1850276002514980767
+    second: Forest Tileset_290
+  - first:
+      213: 7994583119067026357
+    second: Forest Tileset_291
+  - first:
+      213: 1725308845266595499
+    second: Forest Tileset_292
+  - first:
+      213: 914362481780634153
+    second: Forest Tileset_293
+  - first:
+      213: -5296359896536360889
+    second: Forest Tileset_294
+  - first:
+      213: 2000668127729007870
+    second: Forest Tileset_295
+  - first:
+      213: 8197622079090084315
+    second: Forest Tileset_296
+  - first:
+      213: 1327713896276357325
+    second: Forest Tileset_297
+  - first:
+      213: -6613117902529085430
+    second: Forest Tileset_298
+  - first:
+      213: 5144613615301053998
+    second: Forest Tileset_299
+  - first:
+      213: 4495514404168497033
+    second: Forest Tileset_300
+  - first:
+      213: 4039541428903992526
+    second: Forest Tileset_301
+  - first:
+      213: 7586244934326326141
+    second: Forest Tileset_302
+  - first:
+      213: -5424391283919993138
+    second: Forest Tileset_303
+  - first:
+      213: -3386699228067980357
+    second: Forest Tileset_304
+  - first:
+      213: 2275088132769447442
+    second: Forest Tileset_305
+  - first:
+      213: 6759027277550308933
+    second: Forest Tileset_306
+  - first:
+      213: 1047266203686910386
+    second: Forest Tileset_307
+  - first:
+      213: -7063336784560852021
+    second: Forest Tileset_308
+  - first:
+      213: 4321813568991886164
+    second: Forest Tileset_309
+  - first:
+      213: -930503244153346901
+    second: Forest Tileset_310
+  - first:
+      213: 6567053032067434705
+    second: Forest Tileset_311
+  - first:
+      213: 2134551200652640247
+    second: Forest Tileset_312
+  - first:
+      213: 21502619691061858
+    second: Forest Tileset_313
+  - first:
+      213: 8986713230303550685
+    second: Forest Tileset_314
+  - first:
+      213: -6539543921969142908
+    second: Forest Tileset_315
+  - first:
+      213: -4723568332129849670
+    second: Forest Tileset_316
+  - first:
+      213: 6918660409307421094
+    second: Forest Tileset_317
+  - first:
+      213: -5811588112970618023
+    second: Forest Tileset_318
+  - first:
+      213: 7949217236084692655
+    second: Forest Tileset_319
+  - first:
+      213: -4416474103324184747
+    second: Forest Tileset_320
+  - first:
+      213: 3972509474487474924
+    second: Forest Tileset_321
+  - first:
+      213: 1093794758376308793
+    second: Forest Tileset_322
+  - first:
+      213: 774648756101886168
+    second: Forest Tileset_323
+  - first:
+      213: -1758202219996248102
+    second: Forest Tileset_324
+  - first:
+      213: -9199093120368031865
+    second: Forest Tileset_325
+  - first:
+      213: -3816141163036233895
+    second: Forest Tileset_326
+  - first:
+      213: -4088971051242365201
+    second: Forest Tileset_327
+  - first:
+      213: 7411299516772714138
+    second: Forest Tileset_328
+  - first:
+      213: -8973314708020335215
+    second: Forest Tileset_329
+  - first:
+      213: 4559846987461408857
+    second: Forest Tileset_330
+  - first:
+      213: 2364680349776660701
+    second: Forest Tileset_331
+  - first:
+      213: -2082779751217213481
+    second: Forest Tileset_332
+  - first:
+      213: -6066034111763753927
+    second: Forest Tileset_333
+  - first:
+      213: -655886368619016019
+    second: Forest Tileset_334
+  - first:
+      213: -717545845052112246
+    second: Forest Tileset_335
+  - first:
+      213: 7605387692858016453
+    second: Forest Tileset_336
+  - first:
+      213: -8809842659211291868
+    second: Forest Tileset_337
+  - first:
+      213: -8941839340336011848
+    second: Forest Tileset_338
+  - first:
+      213: 4579642661230672676
+    second: Forest Tileset_339
+  - first:
+      213: 4737109935046530531
+    second: Forest Tileset_340
+  - first:
+      213: -4575445006958789912
+    second: Forest Tileset_341
+  - first:
+      213: -7742173273468137278
+    second: Forest Tileset_342
+  - first:
+      213: 716672657999906726
+    second: Forest Tileset_343
+  - first:
+      213: -6570450463572673446
+    second: Forest Tileset_344
+  - first:
+      213: -8795780011858510351
+    second: Forest Tileset_345
+  - first:
+      213: 6629166057323374769
+    second: Forest Tileset_346
+  - first:
+      213: -2227915128726597684
+    second: Forest Tileset_347
+  - first:
+      213: 8074148951139950715
+    second: Forest Tileset_348
+  - first:
+      213: -1298384264702203488
+    second: Forest Tileset_349
+  - first:
+      213: 6665948602989286234
+    second: Forest Tileset_350
+  - first:
+      213: 3598681077877395740
+    second: Forest Tileset_351
+  - first:
+      213: 6552218800400496459
+    second: Forest Tileset_352
+  - first:
+      213: -3296460321132771195
+    second: Forest Tileset_353
+  - first:
+      213: -8163460884408856871
+    second: Forest Tileset_354
+  - first:
+      213: -497547103954143350
+    second: Forest Tileset_355
+  - first:
+      213: -8511233587197334369
+    second: Forest Tileset_356
+  - first:
+      213: 3260120878924471258
+    second: Forest Tileset_357
+  - first:
+      213: -5970558760182036407
+    second: Forest Tileset_358
+  - first:
+      213: -7972185508870481532
+    second: Forest Tileset_359
+  - first:
+      213: -6011864384534130891
+    second: Forest Tileset_360
+  - first:
+      213: 5063781572516889084
+    second: Forest Tileset_361
+  - first:
+      213: 3884922440196663325
+    second: Forest Tileset_362
+  - first:
+      213: 7715583363171032193
+    second: Forest Tileset_363
+  - first:
+      213: -982612253053523892
+    second: Forest Tileset_364
+  - first:
+      213: 4192436532924459804
+    second: Forest Tileset_365
+  - first:
+      213: -3156937735179321815
+    second: Forest Tileset_366
+  - first:
+      213: 2444682643729132446
+    second: Forest Tileset_367
+  - first:
+      213: 8890900631481329507
+    second: Forest Tileset_368
+  - first:
+      213: 2896594074064988933
+    second: Forest Tileset_369
+  - first:
+      213: 4894387841428126618
+    second: Forest Tileset_370
+  - first:
+      213: 7985608143649980373
+    second: Forest Tileset_371
+  - first:
+      213: 2253774606424984338
+    second: Forest Tileset_372
+  - first:
+      213: 5799114251300019464
+    second: Forest Tileset_373
+  - first:
+      213: 1703568684724212353
+    second: Forest Tileset_374
+  - first:
+      213: 7802575106805605175
+    second: Forest Tileset_375
+  - first:
+      213: 960048058050339658
+    second: Forest Tileset_376
+  - first:
+      213: 9188423551942691421
+    second: Forest Tileset_377
+  - first:
+      213: 8187981392134463124
+    second: Forest Tileset_378
+  - first:
+      213: 5644350062262721097
+    second: Forest Tileset_379
+  - first:
+      213: 6613135136093447245
+    second: Forest Tileset_380
+  - first:
+      213: 2362487544792248983
+    second: Forest Tileset_381
+  - first:
+      213: -2683763213901920169
+    second: Forest Tileset_382
+  - first:
+      213: -47967747958547311
+    second: Forest Tileset_383
+  - first:
+      213: -8920847772168177814
+    second: Forest Tileset_384
+  - first:
+      213: 8374464910299546046
+    second: Forest Tileset_385
+  - first:
+      213: 5788051929184180735
+    second: Forest Tileset_386
+  - first:
+      213: -6694480332857247542
+    second: Forest Tileset_387
+  - first:
+      213: -6726256901333461863
+    second: Forest Tileset_388
+  - first:
+      213: -8429695823583279638
+    second: Forest Tileset_389
+  - first:
+      213: 7534033371010818018
+    second: Forest Tileset_390
+  - first:
+      213: 6257890896733623566
+    second: Forest Tileset_391
+  - first:
+      213: 358020291877354871
+    second: Forest Tileset_392
+  - first:
+      213: 4907917559305111548
+    second: Forest Tileset_393
+  - first:
+      213: 3991455297224018868
+    second: Forest Tileset_394
+  - first:
+      213: -228339540755437381
+    second: Forest Tileset_395
+  - first:
+      213: -5894517516656570758
+    second: Forest Tileset_396
+  - first:
+      213: -8762994989444572095
+    second: Forest Tileset_397
+  - first:
+      213: -6326002669642473061
+    second: Forest Tileset_398
+  - first:
+      213: 4009273421654029440
+    second: Forest Tileset_399
+  - first:
+      213: 7891615719087619984
+    second: Forest Tileset_400
+  - first:
+      213: -8058192806182420268
+    second: Forest Tileset_401
+  - first:
+      213: 5699342114471169193
+    second: Forest Tileset_402
+  - first:
+      213: 4374171841314832745
+    second: Forest Tileset_403
+  - first:
+      213: 5115796414489556733
+    second: Forest Tileset_404
+  - first:
+      213: 380651346356466696
+    second: Forest Tileset_405
+  - first:
+      213: -80959388350580932
+    second: Forest Tileset_406
+  - first:
+      213: 5001067994562031492
+    second: Forest Tileset_407
+  - first:
+      213: 2043001221017028543
+    second: Forest Tileset_408
+  - first:
+      213: -3066913146172875568
+    second: Forest Tileset_409
+  - first:
+      213: -1521109787810162097
+    second: Forest Tileset_410
+  - first:
+      213: -8957749321839672468
+    second: Forest Tileset_411
+  - first:
+      213: -6345996154869036058
+    second: Forest Tileset_412
+  - first:
+      213: 3765150965931209632
+    second: Forest Tileset_413
+  - first:
+      213: 7594857839984713071
+    second: Forest Tileset_414
+  - first:
+      213: 5671967704658197403
+    second: Forest Tileset_415
+  - first:
+      213: -757945147271026300
+    second: Forest Tileset_416
+  - first:
+      213: -8365995939658622456
+    second: Forest Tileset_417
+  - first:
+      213: 53606621690447215
+    second: Forest Tileset_418
+  - first:
+      213: -5203293920193086297
+    second: Forest Tileset_419
+  - first:
+      213: -9196676306773931276
+    second: Forest Tileset_420
+  - first:
+      213: -945017041535220523
+    second: Forest Tileset_421
+  - first:
+      213: 5826960391711416757
+    second: Forest Tileset_422
+  - first:
+      213: -8759733993983777443
+    second: Forest Tileset_423
+  - first:
+      213: -6998313959426832888
+    second: Forest Tileset_424
+  - first:
+      213: -2242583596670639564
+    second: Forest Tileset_425
+  - first:
+      213: 4598351697983540697
+    second: Forest Tileset_426
+  - first:
+      213: -8402063197086747869
+    second: Forest Tileset_427
+  - first:
+      213: 8091059837493507662
+    second: Forest Tileset_428
+  - first:
+      213: -8019288827495820576
+    second: Forest Tileset_429
+  - first:
+      213: 7865271690613181370
+    second: Forest Tileset_430
+  - first:
+      213: 737347939740674807
+    second: Forest Tileset_431
+  - first:
+      213: 6798138774994932181
+    second: Forest Tileset_432
+  - first:
+      213: 3327989825450863475
+    second: Forest Tileset_433
+  - first:
+      213: -2272312366365349958
+    second: Forest Tileset_434
+  - first:
+      213: 6494919927805358371
+    second: Forest Tileset_435
+  - first:
+      213: -2430204774631180607
+    second: Forest Tileset_436
+  - first:
+      213: -3909580991376487135
+    second: Forest Tileset_437
+  - first:
+      213: -4892486092707430011
+    second: Forest Tileset_438
+  - first:
+      213: -5105238711788227204
+    second: Forest Tileset_439
+  - first:
+      213: -4069768509480237257
+    second: Forest Tileset_440
+  - first:
+      213: -6861719718101031435
+    second: Forest Tileset_441
+  - first:
+      213: -133387389038841368
+    second: Forest Tileset_442
+  - first:
+      213: 7085301053131499109
+    second: Forest Tileset_443
+  - first:
+      213: -3266889341384593078
+    second: Forest Tileset_444
+  - first:
+      213: -5775879806572593746
+    second: Forest Tileset_445
+  - first:
+      213: -1560159200319223359
+    second: Forest Tileset_446
+  - first:
+      213: -6493068423838307739
+    second: Forest Tileset_447
+  - first:
+      213: -4236622763714208292
+    second: Forest Tileset_448
+  - first:
+      213: 2210849581515360160
+    second: Forest Tileset_449
+  - first:
+      213: -6014359830447835809
+    second: Forest Tileset_450
+  - first:
+      213: 2509822399333090792
+    second: Forest Tileset_451
+  - first:
+      213: -1496414085603152941
+    second: Forest Tileset_452
+  - first:
+      213: -2162705803236308313
+    second: Forest Tileset_453
+  - first:
+      213: -3405050826806199302
+    second: Forest Tileset_454
+  - first:
+      213: -7517519600310594131
+    second: Forest Tileset_455
+  - first:
+      213: -2692830487168401597
+    second: Forest Tileset_456
+  - first:
+      213: -3739318251998618044
+    second: Forest Tileset_457
+  - first:
+      213: 5468219966870450051
+    second: Forest Tileset_458
+  - first:
+      213: 5921683731033758215
+    second: Forest Tileset_459
+  - first:
+      213: -3335806375077101948
+    second: Forest Tileset_460
+  - first:
+      213: -4588041926759665097
+    second: Forest Tileset_461
+  - first:
+      213: -7288771836825026523
+    second: Forest Tileset_462
+  - first:
+      213: -455633329676642751
+    second: Forest Tileset_463
+  - first:
+      213: 1643337837116259098
+    second: Forest Tileset_464
+  - first:
+      213: -20050411469637804
+    second: Forest Tileset_465
+  - first:
+      213: -3761509196948730859
+    second: Forest Tileset_466
+  - first:
+      213: 2348128059388538727
+    second: Forest Tileset_467
+  - first:
+      213: 7839801409496427525
+    second: Forest Tileset_468
+  - first:
+      213: -4356789065510469952
+    second: Forest Tileset_469
+  - first:
+      213: 8697827456833000909
+    second: Forest Tileset_470
+  - first:
+      213: 472892597011008027
+    second: Forest Tileset_471
+  - first:
+      213: 2322149851691174417
+    second: Forest Tileset_472
+  - first:
+      213: -2746692754769277374
+    second: Forest Tileset_473
+  - first:
+      213: 1000399132994629008
+    second: Forest Tileset_474
+  - first:
+      213: -8906039944397099037
+    second: Forest Tileset_475
+  - first:
+      213: -4495805013976693547
+    second: Forest Tileset_476
+  - first:
+      213: -8728279492606664637
+    second: Forest Tileset_477
+  - first:
+      213: -7179449403255497388
+    second: Forest Tileset_478
+  - first:
+      213: 1338475229362574138
+    second: Forest Tileset_479
+  - first:
+      213: -3442229294211954298
+    second: Forest Tileset_480
+  - first:
+      213: -3310968868039543698
+    second: Forest Tileset_481
+  - first:
+      213: -854355085511133097
+    second: Forest Tileset_482
+  - first:
+      213: -4272219082850549268
+    second: Forest Tileset_483
+  - first:
+      213: 3347880768077894402
+    second: Forest Tileset_484
+  - first:
+      213: 8718329103155382109
+    second: Forest Tileset_485
+  - first:
+      213: 7282109997939475511
+    second: Forest Tileset_486
+  - first:
+      213: 8924879194371313401
+    second: Forest Tileset_487
+  - first:
+      213: -7321798023678084233
+    second: Forest Tileset_488
+  - first:
+      213: 4153071266742329543
+    second: Forest Tileset_489
+  - first:
+      213: 7087142761148686873
+    second: Forest Tileset_490
+  - first:
+      213: 1801131334800781004
+    second: Forest Tileset_491
+  - first:
+      213: 7811835934094883292
+    second: Forest Tileset_492
+  - first:
+      213: -4209188417112869178
+    second: Forest Tileset_493
+  - first:
+      213: 6886641719174898775
+    second: Forest Tileset_494
+  - first:
+      213: -5716075041759082700
+    second: Forest Tileset_495
+  - first:
+      213: -1470497550388498587
+    second: Forest Tileset_496
+  - first:
+      213: -5142286841760484738
+    second: Forest Tileset_497
+  - first:
+      213: 7125341243051142631
+    second: Forest Tileset_498
+  - first:
+      213: 7891996715833184741
+    second: Forest Tileset_499
+  - first:
+      213: 6672226800455180572
+    second: Forest Tileset_500
+  - first:
+      213: -5691121540548883048
+    second: Forest Tileset_501
+  - first:
+      213: 179608756394804080
+    second: Forest Tileset_502
+  - first:
+      213: -315937801374692778
+    second: Forest Tileset_503
+  - first:
+      213: 8250545338049560798
+    second: Forest Tileset_504
+  - first:
+      213: -5606160242971487759
+    second: Forest Tileset_505
+  - first:
+      213: 915946614010950892
+    second: Forest Tileset_506
+  - first:
+      213: 8658644489846327966
+    second: Forest Tileset_507
+  - first:
+      213: 8966100057996256794
+    second: Forest Tileset_508
+  - first:
+      213: 2316613278894501454
+    second: Forest Tileset_509
+  - first:
+      213: -4836485301536460755
+    second: Forest Tileset_510
+  - first:
+      213: -233677628065021845
+    second: Forest Tileset_511
+  - first:
+      213: 8538360239848767493
+    second: Forest Tileset_512
+  - first:
+      213: -5933691280179637939
+    second: Forest Tileset_513
+  - first:
+      213: 8555861987818698752
+    second: Forest Tileset_514
+  - first:
+      213: -2085547275945559863
+    second: Forest Tileset_515
+  - first:
+      213: -3433196115999292805
+    second: Forest Tileset_516
+  - first:
+      213: -251551396364318963
+    second: Forest Tileset_517
+  - first:
+      213: -4075847832906737100
+    second: Forest Tileset_518
+  - first:
+      213: 1281509006231332117
+    second: Forest Tileset_519
+  - first:
+      213: -2029054968488536806
+    second: Forest Tileset_520
+  - first:
+      213: 5242431720882271663
+    second: Forest Tileset_521
+  - first:
+      213: -3074708909531080505
+    second: Forest Tileset_522
+  - first:
+      213: -5215862699906454996
+    second: Forest Tileset_523
+  - first:
+      213: 408659456235467703
+    second: Forest Tileset_524
+  - first:
+      213: -8241164406117988931
+    second: Forest Tileset_525
+  - first:
+      213: -4116292616908800762
+    second: Forest Tileset_526
+  - first:
+      213: -4456531851256229967
+    second: Forest Tileset_527
+  - first:
+      213: -3029795575492842815
+    second: Forest Tileset_528
+  - first:
+      213: -7579767270987467230
+    second: Forest Tileset_529
+  - first:
+      213: -6853065325386824609
+    second: Forest Tileset_530
+  - first:
+      213: -2625081240983148279
+    second: Forest Tileset_531
+  - first:
+      213: -4386767274545519801
+    second: Forest Tileset_532
+  - first:
+      213: 4223102186662405444
+    second: Forest Tileset_533
+  - first:
+      213: 5181149742264951436
+    second: Forest Tileset_534
+  - first:
+      213: 5716523318392491528
+    second: Forest Tileset_535
+  - first:
+      213: -761038967897388588
+    second: Forest Tileset_536
+  - first:
+      213: -1524866629579685213
+    second: Forest Tileset_537
+  - first:
+      213: -8585674700731002793
+    second: Forest Tileset_538
+  - first:
+      213: 6758435938582890621
+    second: Forest Tileset_539
+  - first:
+      213: -4662514323662807704
+    second: Forest Tileset_540
+  - first:
+      213: -5068845902322222146
+    second: Forest Tileset_541
+  - first:
+      213: -6533310540181951776
+    second: Forest Tileset_542
+  - first:
+      213: 6392713122074829644
+    second: Forest Tileset_543
+  - first:
+      213: 8808332910198928051
+    second: Forest Tileset_544
+  - first:
+      213: -1359433309435172758
+    second: Forest Tileset_545
+  - first:
+      213: -6504090943337023705
+    second: Forest Tileset_546
+  - first:
+      213: 6234339402084348923
+    second: Forest Tileset_547
+  - first:
+      213: 5766182127565751749
+    second: Forest Tileset_548
+  - first:
+      213: 4425286960510925546
+    second: Forest Tileset_549
+  - first:
+      213: -5606217399239907365
+    second: Forest Tileset_550
+  - first:
+      213: 1973868294048122218
+    second: Forest Tileset_551
+  - first:
+      213: 3207142880564186432
+    second: Forest Tileset_552
+  - first:
+      213: 7401051067114061239
+    second: Forest Tileset_553
+  - first:
+      213: -438703364949004403
+    second: Forest Tileset_554
+  - first:
+      213: -1157488824117330802
+    second: Forest Tileset_555
+  - first:
+      213: -5947523774886250063
+    second: Forest Tileset_556
+  - first:
+      213: -8917235819173142546
+    second: Forest Tileset_557
+  - first:
+      213: -2241117246470453116
+    second: Forest Tileset_558
+  - first:
+      213: 5347657321954916984
+    second: Forest Tileset_559
+  - first:
+      213: -2441849273169210155
+    second: Forest Tileset_560
+  - first:
+      213: 4055776814592475652
+    second: Forest Tileset_561
+  - first:
+      213: 8733688002257635213
+    second: Forest Tileset_562
+  - first:
+      213: 1921270916589381587
+    second: Forest Tileset_563
+  - first:
+      213: -5755043173539933968
+    second: Forest Tileset_564
+  - first:
+      213: -1437365308096354649
+    second: Forest Tileset_565
+  - first:
+      213: -3833395039800489652
+    second: Forest Tileset_566
+  - first:
+      213: 669516853287034434
+    second: Forest Tileset_567
+  - first:
+      213: -1036541939518714639
+    second: Forest Tileset_568
+  - first:
+      213: 5295819246252892760
+    second: Forest Tileset_569
+  - first:
+      213: -377651407473662605
+    second: Forest Tileset_570
+  - first:
+      213: -5756463213458249986
+    second: Forest Tileset_571
+  - first:
+      213: -5216156204603948255
+    second: Forest Tileset_572
+  - first:
+      213: 1366606060137735747
+    second: Forest Tileset_573
+  - first:
+      213: 482189929690379039
+    second: Forest Tileset_574
+  - first:
+      213: -5512677886442287215
+    second: Forest Tileset_575
+  - first:
+      213: -3118627228306170721
+    second: Forest Tileset_576
+  - first:
+      213: -8159871336678282660
+    second: Forest Tileset_577
+  - first:
+      213: 8087836372440811057
+    second: Forest Tileset_578
+  - first:
+      213: 4307387428724659811
+    second: Forest Tileset_579
+  - first:
+      213: -2401096311962033305
+    second: Forest Tileset_580
+  - first:
+      213: 4759859467710806036
+    second: Forest Tileset_581
+  - first:
+      213: 8446013496408022655
+    second: Forest Tileset_582
+  - first:
+      213: -3815321012341852248
+    second: Forest Tileset_583
+  - first:
+      213: -2067622624424781263
+    second: Forest Tileset_584
+  - first:
+      213: 3065313649761203913
+    second: Forest Tileset_585
+  - first:
+      213: -7246939568282232069
+    second: Forest Tileset_586
+  - first:
+      213: -4415536062781315371
+    second: Forest Tileset_587
+  - first:
+      213: 7663673033010104064
+    second: Forest Tileset_588
+  - first:
+      213: -1607636865607680582
+    second: Forest Tileset_589
+  - first:
+      213: 5804161095542479577
+    second: Forest Tileset_590
+  - first:
+      213: -227437567598557595
+    second: Forest Tileset_591
+  - first:
+      213: -5991757349983529698
+    second: Forest Tileset_592
+  - first:
+      213: -3263314244919266661
+    second: Forest Tileset_593
+  - first:
+      213: 1007615719898645750
+    second: Forest Tileset_594
+  - first:
+      213: 4908561924203687829
+    second: Forest Tileset_595
+  - first:
+      213: 1812766716647286383
+    second: Forest Tileset_596
+  - first:
+      213: -4762566922177312911
+    second: Forest Tileset_597
+  - first:
+      213: 8994971099002147716
+    second: Forest Tileset_598
+  - first:
+      213: 8750739942745807725
+    second: Forest Tileset_599
+  - first:
+      213: -5030524109121738820
+    second: Forest Tileset_600
+  - first:
+      213: -1818611191381424375
+    second: Forest Tileset_601
+  - first:
+      213: -5624750565700389697
+    second: Forest Tileset_602
+  - first:
+      213: -5671506175559034514
+    second: Forest Tileset_603
+  - first:
+      213: -7490119873039383754
+    second: Forest Tileset_604
+  - first:
+      213: -6897387524884599918
+    second: Forest Tileset_605
+  - first:
+      213: -1305167137278741858
+    second: Forest Tileset_606
+  - first:
+      213: 5483735031507275031
+    second: Forest Tileset_607
+  - first:
+      213: -4514616899595458605
+    second: Forest Tileset_608
+  - first:
+      213: -6279925615671006513
+    second: Forest Tileset_609
+  - first:
+      213: 4935153258727136438
+    second: Forest Tileset_610
+  - first:
+      213: 6095643436690231929
+    second: Forest Tileset_611
+  - first:
+      213: -7486876188677979489
+    second: Forest Tileset_612
+  - first:
+      213: 473013408444055842
+    second: Forest Tileset_613
+  - first:
+      213: -787415205734966326
+    second: Forest Tileset_614
+  - first:
+      213: -917612508179353083
+    second: Forest Tileset_615
+  - first:
+      213: -5669123929608309462
+    second: Forest Tileset_616
+  - first:
+      213: -2823789690461773132
+    second: Forest Tileset_617
+  - first:
+      213: 1788431972602697836
+    second: Forest Tileset_618
+  - first:
+      213: 9064043416237081973
+    second: Forest Tileset_619
+  - first:
+      213: 1498539021562173431
+    second: Forest Tileset_620
+  - first:
+      213: 2885326682199160418
+    second: Forest Tileset_621
+  - first:
+      213: 357734509636105604
+    second: Forest Tileset_622
+  - first:
+      213: -428117721102002990
+    second: Forest Tileset_623
+  - first:
+      213: 1964751805410663147
+    second: Forest Tileset_624
+  - first:
+      213: -8068703805993737624
+    second: Forest Tileset_625
+  - first:
+      213: -2348958597654011135
+    second: Forest Tileset_626
+  - first:
+      213: -4822445172154968385
+    second: Forest Tileset_627
+  - first:
+      213: 1034626092117952006
+    second: Forest Tileset_628
+  - first:
+      213: -76517416478218528
+    second: Forest Tileset_629
+  - first:
+      213: 9005918969557086994
+    second: Forest Tileset_630
+  - first:
+      213: -453260138330492311
+    second: Forest Tileset_631
+  - first:
+      213: 7652009730755347243
+    second: Forest Tileset_632
+  - first:
+      213: 8124121162016026835
+    second: Forest Tileset_633
+  - first:
+      213: -4739493771052162546
+    second: Forest Tileset_634
+  - first:
+      213: 1930447255238434188
+    second: Forest Tileset_635
+  - first:
+      213: 7969216090880161739
+    second: Forest Tileset_636
+  - first:
+      213: 5812584295496751556
+    second: Forest Tileset_637
+  - first:
+      213: -3680262658186835233
+    second: Forest Tileset_638
+  - first:
+      213: -262341813067114793
+    second: Forest Tileset_639
+  - first:
+      213: -4574718590087368181
+    second: Forest Tileset_640
+  - first:
+      213: 7832723483705334574
+    second: Forest Tileset_641
+  - first:
+      213: 8316783962983191659
+    second: Forest Tileset_642
+  - first:
+      213: -1924361388283610638
+    second: Forest Tileset_643
+  - first:
+      213: -1109018459977249803
+    second: Forest Tileset_644
+  - first:
+      213: -6482387828744455582
+    second: Forest Tileset_645
+  - first:
+      213: -970426616693989595
+    second: Forest Tileset_646
+  - first:
+      213: -7895915058521627568
+    second: Forest Tileset_647
+  - first:
+      213: 3041067939775671069
+    second: Forest Tileset_648
+  - first:
+      213: -2715483777842226958
+    second: Forest Tileset_649
+  - first:
+      213: -1647478942415526960
+    second: Forest Tileset_650
+  - first:
+      213: 3705666201011982986
+    second: Forest Tileset_651
+  - first:
+      213: -7031902115669583986
+    second: Forest Tileset_652
+  - first:
+      213: -812080107786182924
+    second: Forest Tileset_653
+  - first:
+      213: 7543478146350404082
+    second: Forest Tileset_654
+  - first:
+      213: 7420289116055499403
+    second: Forest Tileset_655
+  - first:
+      213: 4677001122414795173
+    second: Forest Tileset_656
+  - first:
+      213: 3402087049283651040
+    second: Forest Tileset_657
+  - first:
+      213: 271050901000605231
+    second: Forest Tileset_658
+  - first:
+      213: -7599871698137569275
+    second: Forest Tileset_659
+  - first:
+      213: 7041811742937055244
+    second: Forest Tileset_660
+  - first:
+      213: 8537758450795078908
+    second: Forest Tileset_661
+  - first:
+      213: -3712888823814671676
+    second: Forest Tileset_662
+  - first:
+      213: 3123437498450291219
+    second: Forest Tileset_663
+  - first:
+      213: 9203045051622624563
+    second: Forest Tileset_664
+  - first:
+      213: 8199398053169497758
+    second: Forest Tileset_665
+  - first:
+      213: 4797904374748608382
+    second: Forest Tileset_666
+  - first:
+      213: -7310970680155289800
+    second: Forest Tileset_667
+  - first:
+      213: -5740271366870585307
+    second: Forest Tileset_668
+  - first:
+      213: -2547647365570926250
+    second: Forest Tileset_669
+  - first:
+      213: 5909210159935122105
+    second: Forest Tileset_670
+  - first:
+      213: -5893296188911555470
+    second: Forest Tileset_671
+  - first:
+      213: 5417722190601157337
+    second: Forest Tileset_672
+  - first:
+      213: -6565864946132297822
+    second: Forest Tileset_673
+  - first:
+      213: -3356569008451557955
+    second: Forest Tileset_674
+  - first:
+      213: 3356224572301188168
+    second: Forest Tileset_675
+  - first:
+      213: -4123697868944376500
+    second: Forest Tileset_676
+  - first:
+      213: -1633599498108976802
+    second: Forest Tileset_677
+  - first:
+      213: 5676244405722456650
+    second: Forest Tileset_678
+  - first:
+      213: -5635815516887698784
+    second: Forest Tileset_679
+  - first:
+      213: 5457157124053307212
+    second: Forest Tileset_680
+  - first:
+      213: -269850636937103824
+    second: Forest Tileset_681
+  - first:
+      213: -1111586940772637984
+    second: Forest Tileset_682
+  - first:
+      213: -6455118964968374043
+    second: Forest Tileset_683
+  - first:
+      213: -398428727372110873
+    second: Forest Tileset_684
+  - first:
+      213: -38105637510606170
+    second: Forest Tileset_685
+  - first:
+      213: 529776461227283760
+    second: Forest Tileset_686
+  - first:
+      213: 8286415632450935797
+    second: Forest Tileset_687
+  - first:
+      213: 303610158726480222
+    second: Forest Tileset_688
+  - first:
+      213: -963116172694137799
+    second: Forest Tileset_689
+  - first:
+      213: -270263548616401056
+    second: Forest Tileset_690
+  - first:
+      213: 2466634877264052084
+    second: Forest Tileset_691
+  - first:
+      213: -7621962978117145899
+    second: Forest Tileset_692
+  - first:
+      213: -3574802984020451326
+    second: Forest Tileset_693
+  - first:
+      213: 6147673502031113525
+    second: Forest Tileset_694
+  - first:
+      213: -3282581944388199946
+    second: Forest Tileset_695
+  - first:
+      213: 5669058105898412725
+    second: Forest Tileset_696
+  - first:
+      213: 3448689145760125774
+    second: Forest Tileset_697
+  - first:
+      213: 878349049050595474
+    second: Forest Tileset_698
+  - first:
+      213: -8409709691651208429
+    second: Forest Tileset_699
+  - first:
+      213: -676975790941057059
+    second: Forest Tileset_700
+  - first:
+      213: -1173638746011925190
+    second: Forest Tileset_701
+  - first:
+      213: -2388088313859765261
+    second: Forest Tileset_702
+  - first:
+      213: -4160451122293281236
+    second: Forest Tileset_703
+  - first:
+      213: -7789781481459984677
+    second: Forest Tileset_704
+  - first:
+      213: -6041660014640086573
+    second: Forest Tileset_705
+  - first:
+      213: 7122426457094687350
+    second: Forest Tileset_706
+  - first:
+      213: 2190384558452295567
+    second: Forest Tileset_707
+  - first:
+      213: 3074361901885233125
+    second: Forest Tileset_708
+  - first:
+      213: -7744328221028122006
+    second: Forest Tileset_709
+  - first:
+      213: 2585170430570793857
+    second: Forest Tileset_710
+  - first:
+      213: -5324803895811727500
+    second: Forest Tileset_711
+  - first:
+      213: 7441223899443037866
+    second: Forest Tileset_712
+  - first:
+      213: 8664285173761128220
+    second: Forest Tileset_713
+  - first:
+      213: -2932875244007496869
+    second: Forest Tileset_714
+  - first:
+      213: -5576592933075758577
+    second: Forest Tileset_715
+  - first:
+      213: -260742103932610327
+    second: Forest Tileset_716
+  - first:
+      213: -1845810528933142040
+    second: Forest Tileset_717
+  - first:
+      213: 6308464041719452388
+    second: Forest Tileset_718
+  - first:
+      213: 3871264998728103216
+    second: Forest Tileset_719
+  - first:
+      213: 1170448811889181556
+    second: Forest Tileset_720
+  - first:
+      213: 7061593219435263946
+    second: Forest Tileset_721
+  - first:
+      213: 7153446925769179066
+    second: Forest Tileset_722
+  - first:
+      213: 1095882152980548516
+    second: Forest Tileset_723
+  - first:
+      213: -8306518091121122355
+    second: Forest Tileset_724
+  - first:
+      213: -2388846458603191313
+    second: Forest Tileset_725
+  - first:
+      213: -4422894613613129418
+    second: Forest Tileset_726
+  - first:
+      213: 6759698331598218473
+    second: Forest Tileset_727
+  - first:
+      213: -161830500401814845
+    second: Forest Tileset_728
+  - first:
+      213: 6070810694595025835
+    second: Forest Tileset_729
+  - first:
+      213: 2734956126418206495
+    second: Forest Tileset_730
+  - first:
+      213: -5038199090197413253
+    second: Forest Tileset_731
+  - first:
+      213: 1438064687473280187
+    second: Forest Tileset_732
+  - first:
+      213: -4741131066783560842
+    second: Forest Tileset_733
+  - first:
+      213: 373981278707690921
+    second: Forest Tileset_734
+  - first:
+      213: -1631232653561922924
+    second: Forest Tileset_735
+  - first:
+      213: -8552770266187265584
+    second: Forest Tileset_736
+  - first:
+      213: 8058865895387556073
+    second: Forest Tileset_737
+  - first:
+      213: 7871050875101749675
+    second: Forest Tileset_738
+  - first:
+      213: 4445064004658840883
+    second: Forest Tileset_739
+  - first:
+      213: -1154215462916342183
+    second: Forest Tileset_740
+  - first:
+      213: -3578528667008159449
+    second: Forest Tileset_741
+  - first:
+      213: -2636160621097332632
+    second: Forest Tileset_742
+  - first:
+      213: 8895360409710477746
+    second: Forest Tileset_743
+  - first:
+      213: -4325306865446644971
+    second: Forest Tileset_744
+  - first:
+      213: 835656387379389240
+    second: Forest Tileset_745
+  - first:
+      213: -8326311834604058705
+    second: Forest Tileset_746
+  - first:
+      213: -5018985438811086391
+    second: Forest Tileset_747
+  - first:
+      213: -290330130405102405
+    second: Forest Tileset_748
+  - first:
+      213: -4910801890013289717
+    second: Forest Tileset_749
+  - first:
+      213: 2489170046469442075
+    second: Forest Tileset_750
+  - first:
+      213: -6203970495413193416
+    second: Forest Tileset_751
+  - first:
+      213: -3436585179667503050
+    second: Forest Tileset_752
+  - first:
+      213: -7658921273521205095
+    second: Forest Tileset_753
+  - first:
+      213: 1871592685593823222
+    second: Forest Tileset_754
+  - first:
+      213: -6215113890062315882
+    second: Forest Tileset_755
+  - first:
+      213: 5350686646782623967
+    second: Forest Tileset_756
+  - first:
+      213: -997046865332726542
+    second: Forest Tileset_757
+  - first:
+      213: 6897653695659635575
+    second: Forest Tileset_758
+  - first:
+      213: 8890834320624235706
+    second: Forest Tileset_759
+  - first:
+      213: -8906573383978136719
+    second: Forest Tileset_760
+  - first:
+      213: -7842676673232548296
+    second: Forest Tileset_761
+  - first:
+      213: -1741688419781195724
+    second: Forest Tileset_762
+  - first:
+      213: -9189442082407999230
+    second: Forest Tileset_763
+  - first:
+      213: -4090112399561198093
+    second: Forest Tileset_764
+  - first:
+      213: -6072558438942724572
+    second: Forest Tileset_765
+  - first:
+      213: -2306574288882168910
+    second: Forest Tileset_766
+  - first:
+      213: 4982334918629874701
+    second: Forest Tileset_767
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
