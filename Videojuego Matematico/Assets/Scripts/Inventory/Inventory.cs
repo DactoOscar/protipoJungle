@@ -14,6 +14,10 @@ public class Inventory : MonoBehaviour
 
     public GameObject slotHolder;
 
+    [HideInInspector]
+    public GameObject Gema;
+    public bool playerItemUse;
+
     void Start()
     {
         allSlots = slotHolder.transform.childCount;
@@ -46,7 +50,7 @@ public class Inventory : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
+    { 
         for (int i = 0; i < allSlots; i++)
         {
             if (collision.tag == "ItemInventory")

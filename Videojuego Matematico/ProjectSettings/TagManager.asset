@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NPC
   - ItemInventory
+  - ItemUse
   layers:
   - Default
   - TransparentFX
